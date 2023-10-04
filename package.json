@@ -1,0 +1,12 @@
+{
+  "name": "deb-repository",
+  "private": true,
+  "scripts": {
+    "format": "prettier -w './**/*' # see https://github.com/prettier/prettier/issues/15079"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "prettier-plugin-pkg": "^0.18.0",
+    "prettier-plugin-sh": "^0.13.1"
+  }
+}
