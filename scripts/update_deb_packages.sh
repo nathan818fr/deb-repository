@@ -80,8 +80,8 @@ function download_latest_gh_release() {
 }
 
 function download_from_apt() {
-  local pkg_name repo_url repo_packages_files
-  pkg_name="$1"
+  local pkg_names repo_url repo_packages_files
+  pkg_names="$1"
   repo_url="$2"
   shift 2
   repo_packages_files=("$@")
@@ -89,33 +89,35 @@ function download_from_apt() {
   printf 'Fetching Packages files from %s ...\n' "$repo_url"
   local repo_packages_file repo_packages=''
   for repo_packages_file in "${repo_packages_files[@]}"; do
-    repo_packages+="$(curl -fsSL -- "${repo_url}/${repo_packages_file}")"
+    repo_packages+="$(curl -fsSL -- "${repo_url}/${repo_packages_file}")"$'\n\n'
   done
   repo_packages="$(parse_deb_packages_index <<< "$repo_packages")"
 
-  local pkgs_count=0
-  for pkg_arch in "${SUPPORTED_ARCHS[@]}"; do
-    local pkg_params
-    pkg_params="$(
-      jq <<< "$repo_packages" -Mr \
-        --arg pkg_name "$pkg_name" \
-        --arg pkg_arch "$pkg_arch" \
-        '.[] | select(.Package == $pkg_name and .Architecture == $pkg_arch) | "\(.Version)\t\(.Filename)"' \
-        | LANG=C sort -rV | head -n1
-    )"
-    if [[ -z "$pkg_params" ]]; then continue; fi
+  for pkg_name in ${pkg_names//,/ }; do
+    local pkgs_count=0
+    for pkg_arch in "${SUPPORTED_ARCHS[@]}"; do
+      local pkg_params
+      pkg_params="$(
+        jq <<< "$repo_packages" -Mr \
+          --arg pkg_name "$pkg_name" \
+          --arg pkg_arch "$pkg_arch" \
+          '.[] | select(.Package == $pkg_name and .Architecture == $pkg_arch) | "\(.Version)\t\(.Filename)"' \
+          | LANG=C sort -rV | head -n1
+      )"
+      if [[ -z "$pkg_params" ]]; then continue; fi
 
-    IFS=$'\t' read -r pkg_version pkg_url <<< "$pkg_params"
-    pkg_url="${repo_url}/${pkg_url}"
+      IFS=$'\t' read -r pkg_version pkg_url <<< "$pkg_params"
+      pkg_url="${repo_url}/${pkg_url}"
 
-    download_deb "$pkg_name" "$pkg_version" "$pkg_arch" "$pkg_url"
-    pkgs_count=$((pkgs_count + 1))
+      download_deb "$pkg_name" "$pkg_version" "$pkg_arch" "$pkg_url"
+      pkgs_count=$((pkgs_count + 1))
+    done
+
+    if [[ "$pkgs_count" -eq 0 ]]; then
+      printf 'error: no packages found for %s\n' "$pkg_name" >&2
+      return 1
+    fi
   done
-
-  if [[ "$pkgs_count" -eq 0 ]]; then
-    printf 'error: no packages found for %s\n' "$pkg_name" >&2
-    return 1
-  fi
 }
 
 function download_deb() {
