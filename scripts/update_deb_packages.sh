@@ -17,6 +17,7 @@ function main() {
   download_nathan818_packages
   download_latest_gh_release dive wagoodman/dive
   download_latest_gh_release gh cli/cli
+  download_latest_gh_release glow charmbracelet/glow
   download_latest_gh_release mmdbinspect maxmind/mmdbinspect
   download_latest_gh_release sops mozilla/sops
   download_latest_gh_release ulauncher Ulauncher/Ulauncher
