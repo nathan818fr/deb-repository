@@ -19,6 +19,7 @@ function main() {
   download_latest_gh_release gh cli/cli
   download_latest_gh_release glow charmbracelet/glow
   download_latest_gh_release mmdbinspect maxmind/mmdbinspect
+  download_latest_gh_release rclone rclone/rclone dash
   download_latest_gh_release sops mozilla/sops
   download_latest_gh_release ulauncher Ulauncher/Ulauncher
   download_latest_gh_release xclicker robiot/xclicker
@@ -48,9 +49,10 @@ function download_nathan818_packages() {
 }
 
 function download_latest_gh_release() {
-  local pkg_name repo
+  local pkg_name repo format
   pkg_name="$1"
   repo="$2"
+  format="${3:-standard}"
 
   printf 'Fetching latest release of %s ...\n' "$repo"
   local release_meta
@@ -62,10 +64,18 @@ function download_latest_gh_release() {
     pkg_version="${pkg_version:1}"
   fi
 
-  local pkg_arch pkg_url pkgs_count=0
+  local pkg_arch pkg_pattern pkg_url pkgs_count=0
   for pkg_arch in "${SUPPORTED_ARCHS[@]}"; do
-    pkg_url="$(jq -Mr --arg pkg_arch "$pkg_arch" \
-      '.assets[] | select(.name|endswith("_\($pkg_arch).deb")) | .browser_download_url' \
+    case "$format" in
+      standard) pkg_pattern="_${pkg_arch}.deb" ;;
+      dash) pkg_pattern="-${pkg_arch}.deb" ;;
+      *)
+        printf 'error: unknown format: %s\n' "$format" >&2
+        return 1
+        ;;
+    esac
+    pkg_url="$(jq -Mr --arg pkg_pattern "$pkg_pattern" \
+      '.assets[] | select(.name|endswith($pkg_pattern)) | .browser_download_url' \
       <<< "$release_meta")"
     if [[ -z "$pkg_url" ]]; then continue; fi
 
