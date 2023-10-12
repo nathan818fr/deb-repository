@@ -16,7 +16,8 @@ To use this Debian repository, run the following commands:
 
 ```sh
 wget -qO - https://deb-repo.nathan818.fr/public_key.asc | gpg --dearmor | sudo tee /usr/share/keyrings/nathan818fr-archive-keyring.gpg > /dev/null
-echo "deb [signed-by=/usr/share/keyrings/nathan818fr-archive-keyring.gpg] https://deb-repo.nathan818.fr stable main" | sudo tee /etc/apt/sources.list.d/nathan818fr.list
+printf 'deb [signed-by=/usr/share/keyrings/nathan818fr-archive-keyring.gpg] https://deb-repo.nathan818.fr stable main\n' | sudo tee /etc/apt/sources.list.d/nathan818fr.list
+printf 'Package: *\nPin: origin deb-repo.nathan818.fr\nPin-Priority: 990\n' | sudo tee /etc/apt/preferences.d/nathan818fr
 sudo apt update
 ```
 
