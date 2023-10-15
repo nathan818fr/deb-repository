@@ -15,6 +15,7 @@ function main() {
 
   # Update the packages
   download_nathan818_packages
+  download_latest_gh_release bruno usebruno/bruno
   download_latest_gh_release dive wagoodman/dive
   download_latest_gh_release gh cli/cli
   download_latest_gh_release glow charmbracelet/glow
@@ -67,15 +68,15 @@ function download_latest_gh_release() {
   local pkg_arch pkg_pattern pkg_url pkgs_count=0
   for pkg_arch in "${SUPPORTED_ARCHS[@]}"; do
     case "$format" in
-      standard) pkg_pattern="_${pkg_arch}.deb" ;;
-      dash) pkg_pattern="-${pkg_arch}.deb" ;;
+      standard) pkg_pattern="${pkg_name}_[^_]+_(linux_)?${pkg_arch}(_linux)?\.deb" ;;
+      dash) pkg_pattern="${pkg_name}-[^-]+-(linux-)?${pkg_arch}(-linux)?\.deb" ;;
       *)
         printf 'error: unknown format: %s\n' "$format" >&2
         return 1
         ;;
     esac
     pkg_url="$(jq -Mr --arg pkg_pattern "$pkg_pattern" \
-      '.assets[] | select(.name|endswith($pkg_pattern)) | .browser_download_url' \
+      '.assets[] | select(.name|test("^\($pkg_pattern)$")) | .browser_download_url' \
       <<< "$release_meta")"
     if [[ -z "$pkg_url" ]]; then continue; fi
 
