@@ -4,12 +4,14 @@ shopt -s inherit_errexit
 
 function main() {
   local signing_key site_dir distributions components archs
+  repo_name='nathan818fr'
   signing_key='nathan818 Debian Repository Signing Key <deb-repo@nathan818.fr>'
   site_dir="$(realpath -m "$(dirname "$(realpath -m "$0")")/../site")"
   distributions=(stable)
   components=(main)
   archs=(all amd64 arm64)
 
+  # Loop through distributions components
   pushd "$site_dir" > /dev/null
   local pool_dir dist_dir arch_dist_dir release_file
   for distribution in "${distributions[@]}"; do
@@ -17,8 +19,8 @@ function main() {
       pool_dir="pool/${distribution}/${component}"
       dist_dir="dists/${distribution}/${component}"
 
+      # Generate Packages and Contents indexes for each arch
       for arch in "${archs[@]}"; do
-        # Generate Packages and Contents indexes
         arch_dist_dir="${dist_dir}/binary-${arch}"
         mkdir -p -- "$arch_dist_dir"
 
@@ -37,7 +39,11 @@ function main() {
       printf 'Generating Release file for %s/%s ...\n' "$distribution" "$component"
       release_file="dists/${distribution}/Release"
       apt-ftparchive \
+        -o "APT::FTPArchive::Release::Origin=${repo_name}" \
+        -o "APT::FTPArchive::Release::Label=${repo_name}" \
+        -o "APT::FTPArchive::Release::Suite=${distribution}" \
         -o "APT::FTPArchive::Release::Codename=${distribution}" \
+        -o "APT::FTPArchive::Release::Components=${components[*]}" \
         -o "APT::FTPArchive::Release::Architectures=${archs[*]}" \
         release "dists/${distribution}" > "$release_file"
 
