@@ -37,9 +37,13 @@ function get_site_contents() {
 }
 
 function get_debian_contents() {
+  curl -fsSL "https://deb.debian.org/debian/dists/stable/main/Contents-all.gz" | gunzip
   curl -fsSL "https://deb.debian.org/debian/dists/stable/main/Contents-amd64.gz" | gunzip
+  curl -fsSL "https://deb.debian.org/debian/dists/stable/contrib/Contents-all.gz" | gunzip
   curl -fsSL "https://deb.debian.org/debian/dists/stable/contrib/Contents-amd64.gz" | gunzip
+  curl -fsSL "https://deb.debian.org/debian/dists/stable/non-free/Contents-all.gz" | gunzip
   curl -fsSL "https://deb.debian.org/debian/dists/stable/non-free/Contents-amd64.gz" | gunzip
+  curl -fsSL "https://deb.debian.org/debian/dists/stable/non-free-firmware/Contents-all.gz" | gunzip
   curl -fsSL "https://deb.debian.org/debian/dists/stable/non-free-firmware/Contents-amd64.gz" | gunzip
 }
 
