@@ -1,0 +1,71 @@
+Package: humanity-icon-theme
+Architecture: all
+Version: 0.6.16
+Priority: optional
+Section: gnome
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 20660
+Depends: adwaita-icon-theme, hicolor-icon-theme
+Filename: pool/stable/main/humanity-icon-theme_0.6.16_all.deb
+Size: 1247592
+MD5sum: d2c0c7fe48755a161379456426255588
+SHA1: debd5cc38b848a5c95a2612e7f20177de2ee475f
+SHA256: 6f544f0f887d1db37914ec89ad53403963a574994cc5242fc206d5f8949a4005
+SHA512: 017d3de230b2270c6c39f912b1e349cb19f73a58b8f159750f36818126ed7cf4321417184a57d7a2ba173b87063495b960dde1d9f116044f562b130b0b8084e0
+Description: Humanity Icon theme
+ Humanity and Humanity Dark are nice and well polished icon themes for
+ the GNOME desktop.
+
+Package: solaar
+Architecture: all
+Version: 1.1.10+dfsg-2
+Priority: optional
+Section: misc
+Maintainer: Stephen Kitt <skitt@debian.org>
+Installed-Size: 1634
+Depends: debconf (>= 0.5) | debconf-2.0, udev, passwd | adduser, gir1.2-ayatanaappindicator3-0.1, gir1.2-gtk-3.0, gir1.2-notify-0.7, python3-dbus, python3-evdev, python3-gi, python3-psutil, python3-pyudev, python3-xlib, python3-yaml, python3:any
+Recommends: upower
+Filename: pool/stable/main/solaar_1.1.10+dfsg-2_all.deb
+Size: 306424
+MD5sum: b3d4f1f6394de760aaf925624f32fe12
+SHA1: 55f07902300719cbd440ed443211601dcc1255b4
+SHA256: 1eeb775381d652e23ee7fbf256aa51143441c4e9d13f2a74aa528eaa206d4659
+SHA512: 9ce2978603a4cfef61b889e3f8d8bba8f7b74f8c4036759f9457f87414ca52fa18b07151b7553d12377215db4f3c0937009a0106840ef134a06d40126edc3f04
+Homepage: https://pwr-solaar.github.io/Solaar/
+Description: Logitech Unifying Receiver peripherals manager for Linux
+ Solaar is a Linux device manager for Logitech's Unifying Receiver wireless
+ peripherals. It is able to pair/unpair devices to the receiver, and for
+ some devices to read battery status.
+
+Package: ulauncher
+Architecture: all
+Version: 5.15.6
+Priority: extra
+Section: python
+Maintainer: Aleksandr Gornostal <ulauncher.app@gmail.com>
+Installed-Size: 6137
+Depends: python3-pyinotify, python3:any (>= 3.5~), libkeybinder-3.0-0, libgtk-3-0 (>= 3.10), gir1.2-gtk-3.0, gir1.2-keybinder-3.0 (>= 0.3), gir1.2-webkit2-4.0, gir1.2-glib-2.0, gir1.2-notify-0.7, gir1.2-gdkpixbuf-2.0, python3-gi, python3-gi-cairo, python3-dbus, python3-levenshtein, python3-websocket, python3-xdg, wmctrl
+Recommends: gir1.2-ayatanaappindicator3-0.1
+Filename: pool/stable/main/ulauncher_5.15.6_all.deb
+Size: 1856470
+MD5sum: ce91ed4e2bc023a551e54041dfe6b894
+SHA1: 89bbb18c0f514e1c322b343b3acb9d5e0e201e22
+SHA256: 51e9f3010dbd4344c84e106a12ac8a5231b4724714708aeef52f57cf1522fc5b
+SHA512: 4b01c14a69d503a9051c6d5c61d5c80cb1fadc0b45a68f45890c312d41604a54f98799716a7bd8f09373e3ed52b6433885790fc9c565e4516a8c2605801a40eb
+Homepage: https://ulauncher.io/
+Description: Application launcher for Linux
+ See https://ulauncher.io for more information
+
+Package: yaru818-theme
+Architecture: all
+Version: 23.10.0-2
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Recommends: humanity-icon-theme
+Filename: pool/stable/main/yaru818-theme_23.10.0-2_all.deb
+Size: 27861584
+MD5sum: 6fdc6518514e86313543eea6a380b990
+SHA1: ccfa7bef4ca2d9c8caf7bae77f629ba9bb240234
+SHA256: 7013a09092a57713623a54145305e8b4e6cca64d00e2ca0af8d8012579c3d79e
+SHA512: dc35438c766ac2ce92f68e7e110011e918203496c560ec9225a5644751ad7d291145954dcd0f1b8db105bd2697562889d00dbcc381b87b605e4545129d5f7bfb
+Description: Yaru818 theme
+

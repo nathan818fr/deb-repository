@@ -1,0 +1,477 @@
+Package: act
+Architecture: amd64
+Version: 0.2.55
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 15892
+Conflicts: artemis
+Filename: pool/stable/main/act_0.2.55_amd64.deb
+Size: 4832604
+MD5sum: 002fac7fbc846d2fda80afcec30052e7
+SHA1: 41a1ee63af807c7d00feb7f1ceb70f8b0f66fb8f
+SHA256: 6e9929cebaf4d79c6ccd3f6b31344bc11af832349ebca950d7fce8fe4a1ef900
+SHA512: 873e4872a3671adad7f1c612eb7b5ef26b404bebd059dfd55c662f92b18b6d904d2fde4deb69f64040e2bb5bccf2afdab38b9b06bf1ae617ac02c46f169dce00
+Homepage: https://nektosact.com/
+Description: CLI tool to run GitHub Actions locally
+
+Package: appimagetool
+Architecture: amd64
+Version: 13
+Priority: optional
+Section: devel
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 2121
+Filename: pool/stable/main/appimagetool_13_amd64.deb
+Size: 2030124
+MD5sum: ae3ad2b56e02d80c5d19411afce87b14
+SHA1: b455ee51bf0fda85835bd3e2383b9cd63ced24e2
+SHA256: 7d711fd1962a8f4c744b744eba2e85e85dab0418e26f0e9ba4604425ba260416
+SHA512: ab5aa52b1c6b032bb110d55f33051c0b79239a5b229e1e47a8514b69c4cff4ded12a3f3efc759adc9b2df2493ab38a00cc57f99713464cf10c8e739a1b15a26a
+Homepage: https://github.com/AppImage/AppImageKit
+Description: CLI tool to package desktop applications as AppImages
+
+Package: aws-vault
+Architecture: amd64
+Version: 7.2.0-1
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 14304
+Filename: pool/stable/main/aws-vault_7.2.0-1_amd64.deb
+Size: 6763176
+MD5sum: c77aa2b9b56ce40036df0b4d61dbc452
+SHA1: ea8dfa565f004affdba325b68fe72b523491d7f9
+SHA256: 2be0bb71d114230a3111dfbaa09822120d895dd269bdcaf5eded42be6211d4ec
+SHA512: a0f2dfe539c4849aa6bbccaf5be067fa33aa38dde4f1f5d642dac41d03aebb348b7b4c782fb3f198633d40ffaa8f16aee09bbc3c11b5699a77c9e0af253ffb80
+Homepage: https://github.com/99designs/aws-vault
+Description: A vault for securely storing and accessing AWS credentials in development environments
+
+Package: bitwarden-cli
+Architecture: amd64
+Version: 2023.12.0
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 101492
+Conflicts: bitwarden
+Filename: pool/stable/main/bitwarden-cli_2023.12.0_amd64.deb
+Size: 22342956
+MD5sum: 7ab1de2b0433f9fc28d7553959a66b6d
+SHA1: 151c53bd069b116fdd522727770554da5e496643
+SHA256: d8c5d438b6f1d6177df0c4b973265b4285eff2e24e41aab67e95fe1a681c06ed
+SHA512: 48a8b2bc01deb942f6f753e0d2d98b1cb862a38cbdb1b7cba7dd137d35ad12c40178b415558ae6837bd3dfd173db2a1d2892cec1b0865a7ce4d3120a824dd862
+Homepage: https://bitwarden.com/help/cli/
+Description: CLI tool to access and manage a Bitwarden vault.
+
+Package: bruno
+Architecture: amd64
+Version: 1.4.0
+Priority: optional
+Section: default
+Maintainer: Anoop M D <anoop.md1421@gmail.com>
+Installed-Size: 276155
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/stable/main/bruno_1.4.0_amd64.deb
+Size: 70385832
+MD5sum: bdc108ffcb120ecd1ebfbd45efdcca41
+SHA1: 776bda0c28aff4f9c05d4963decbce80e41ed5f9
+SHA256: c82608d9cf4cd7d775f81a6733b6092e4664f15762c7e6125826b9aac08c071c
+SHA512: a5db722de709f8e8811081b1b8688c7bf0716c9b7a8b3ed7bd90554e571ea5e5c24ba0fd99b6b335e4d50118748c3b2eb1552cf50191ec8010b146d3ba992709
+Homepage: https://www.usebruno.com
+Description: 
+  Opensource API Client for Exploring and Testing APIs
+License: unknown
+Vendor: Anoop M D <anoop.md1421@gmail.com>
+
+Package: buildpacks-pack
+Architecture: amd64
+Version: 0.32.1
+Priority: optional
+Section: devel
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 24477
+Conflicts: liballegro4-dev
+Filename: pool/stable/main/buildpacks-pack_0.32.1_amd64.deb
+Size: 6674392
+MD5sum: 724e71677579f447fb3aa6c73712934b
+SHA1: c45fdd49bdb2f1d1e18f91349a0857787432ff63
+SHA256: 0e9288462461132a16e5134885eb7f518a52d0aa2d79235ae171ea71d6622a2f
+SHA512: 6e6ed6a51ae3119a33bcf0ed1abaa5c47de8196743823a4225160a864d6a4d98daae379ea950621b33f7b750c58d3956e8f6463b16dc9c23e085da133bd8ec42
+Homepage: https://github.com/buildpacks/pack
+Description: CLI tool for building apps using Cloud Native Buildpacks
+
+Package: cidr-merger
+Architecture: amd64
+Version: 1.1.3
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 1428
+Filename: pool/stable/main/cidr-merger_1.1.3_amd64.deb
+Size: 515592
+MD5sum: 76d3480511ee2b85e711015c3c18248c
+SHA1: 8e0d2580fc1b3071e5af0c648c97df2e74fb7f9f
+SHA256: ffbe823d34dfb87b504fb76a6c876b285b8ce4f188dde164058704d0f01b3933
+SHA512: 169f4192114a621afe484bbd39059bcedb8d9219664cd074d920071ec97db5dbbadec0f65eabc3dcd3a3696320a378c1e60ac264b414c6cd1d691f6f29c30a04
+Homepage: https://github.com/zhanhb/cidr-merger
+Description: CLI tool to merge ip/ip cidr/ip range
+
+Package: dive
+Architecture: amd64
+Version: 0.11.0
+Priority: optional
+Maintainer: Alex Goodman
+Installed-Size: 9556
+Filename: pool/stable/main/dive_0.11.0_amd64.deb
+Size: 4012702
+MD5sum: 931b4b341dfa9b432fc6233754b64026
+SHA1: 007da3b54c1a48d9ed0fe77dc5f1f514fdb621de
+SHA256: 7162a2ef4488589b9971ccfc0771741cf6496f1134caa90360b96816e1b9fb12
+SHA512: f60a698dd8751a604b3f57e644b5ddbcbf32c06ddcc430e484d595413aaf5daab6cd0b782c98bb6b17273991b89b5fff20beb11d3104ab3a0ef7d171939739fd
+Homepage: https://github.com/wagoodman/dive/
+Description: A tool for exploring layers in a docker image
+
+Package: docker-credential-helpers
+Architecture: amd64
+Version: 0.8.0-1
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 3494
+Provides: golang-docker-credential-helpers
+Depends: libsecret-1-0
+Suggests: pass
+Conflicts: golang-docker-credential-helpers
+Replaces: golang-docker-credential-helpers
+Filename: pool/stable/main/docker-credential-helpers_0.8.0-1_amd64.deb
+Size: 848440
+MD5sum: 73d5b2ae50854a8eb695e5df33f7fac3
+SHA1: 8543ba54b974a0744b6a342dd2284e7abcc84bc3
+SHA256: a79d2cacd8983ac94b22f4a207cd12323d524ef68065a7639c6d8989ecb583d6
+SHA512: cce8aa4fdcc55502e188b3f6725c2a2d70c58aa8cd254e7d4a2d74eaf87eec10c7f1981a4e9f9703973a69c56eb26e1c0fa5e1dbe80f8cd832d85163511f8234
+Homepage: https://github.com/docker/docker-credential-helpers
+Description: A credential helper backend which uses libsecret to keep Docker credentials safe
+
+Package: flowy
+Architecture: amd64
+Version: 0.5.0-rc1
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 9161
+Filename: pool/stable/main/flowy_0.5.0-rc1_amd64.deb
+Size: 2316544
+MD5sum: a87be7ddfbfdf0c2c0024a758022b54d
+SHA1: d257f684399f8c2732dba69917b8b2cbfcbbdce1
+SHA256: d8a06943631da72922a05d464fe16c9703ec758dfa10e928862952ad9304e604
+SHA512: 250adf6b3f7e8a5ca3f82a1038d9e4a157dec70f78bc9a3b6e6226a5b841f58cf60fdf185a267a4c0c74e4fa4b2b62304a0c9348062e5fd91a9d265cd58823c6
+Homepage: https://github.com/nathan818fr/flowy
+Description: A dynamic wallpaper changer
+
+Package: gh
+Architecture: amd64
+Version: 2.40.0
+Priority: optional
+Maintainer: GitHub
+Installed-Size: 42649
+Depends: git
+Filename: pool/stable/main/gh_2.40.0_amd64.deb
+Size: 11294440
+MD5sum: f5d1ffebf9d41de390e328d9fdcf44f6
+SHA1: 5ae05ee00fff59bf186b9f6b27b2b3b5ccf09269
+SHA256: 6696f9dd7e72cf7959e9c3722855f10c5565f3df880e8c5b2115c395e1bd4be8
+SHA512: a25d5ff6f06a90a6c26ffc97f69ef8d2474e50a4c168d896adde9e30b416a7c4c6cd4c60c1dc03e7bd0254d2fb4102b78004ecd15661e9ff7b553d9bbe172b60
+Homepage: https://github.com/cli/cli
+Description: GitHub’s official command line tool.
+
+Package: glow
+Architecture: amd64
+Version: 1.5.1
+Priority: optional
+Maintainer: Christian Muehlhaeuser <muesli@charm.sh>
+Installed-Size: 17808
+Filename: pool/stable/main/glow_1.5.1_amd64.deb
+Size: 6812140
+MD5sum: 352e15d6ceffeb2249721565eddf9c4f
+SHA1: 409fe397f3fb95c3c4eafe1af13c4f6eeba311b4
+SHA256: 99e904f9a599f8a007817d49814b2440ff4d95bb5fb9b26763cfc5bf58c579e2
+SHA512: 6eedc18a1f03f5064eb8734b7f4e06c8e66a0c0e2643d70f7f5076588a11f2588431a3cd481e58e13b049170f50d52d3a378765df72b9de75913e977abff402a
+Homepage: https://charm.sh/
+Description: Render markdown on the CLI, with pizzazz!
+
+Package: gpgme-json
+Architecture: amd64
+Version: 1.22.0
+Priority: optional
+Section: web
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Depends: libc6, libgpg-error0, libassuan0
+Filename: pool/stable/main/gpgme-json_1.22.0_amd64.deb
+Size: 557512
+MD5sum: ad1491ffd7701478f309b35bf30b59fe
+SHA1: 02cd7198a1ae7d4fca38a9f3487c73eae98a4d6a
+SHA256: 33a22b9a838c95ee48562f80214f3489e1ddba7961803f67c18914da57c78baa
+SHA512: 9cdfa5edf61c15b8c3865ae6987258b7d4f54b45c893d2917d71d4d877e86ad8a161ac260ee7284396c716f48436a1402e382e65850428d699e7e82857c0aacd
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Description: json interface to the GPGME GnuPG encryption library
+ This interface allows web-browser extentions to communicate with
+ gpgme from Chromium and Mozilla web-bworses. Installing this package
+ should allow Mailvelope extension to work for example
+
+Package: humanity-icon-theme
+Architecture: all
+Version: 0.6.16
+Priority: optional
+Section: gnome
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 20660
+Depends: adwaita-icon-theme, hicolor-icon-theme
+Filename: pool/stable/main/humanity-icon-theme_0.6.16_all.deb
+Size: 1247592
+MD5sum: d2c0c7fe48755a161379456426255588
+SHA1: debd5cc38b848a5c95a2612e7f20177de2ee475f
+SHA256: 6f544f0f887d1db37914ec89ad53403963a574994cc5242fc206d5f8949a4005
+SHA512: 017d3de230b2270c6c39f912b1e349cb19f73a58b8f159750f36818126ed7cf4321417184a57d7a2ba173b87063495b960dde1d9f116044f562b130b0b8084e0
+Description: Humanity Icon theme
+ Humanity and Humanity Dark are nice and well polished icon themes for
+ the GNOME desktop.
+
+Package: mmdbinspect
+Architecture: amd64
+Version: 0.1.1
+Maintainer: MaxMind, Inc. <support@maxmind.com>
+Installed-Size: 2192
+Filename: pool/stable/main/mmdbinspect_0.1.1_amd64.deb
+Size: 900286
+MD5sum: 0913b648ac678f4a946a4ed656e079bd
+SHA1: 71724b17dc24f48ebe50b7b72e01eeabcde16b20
+SHA256: d542f0f645aa42d09c41f8b98f9e2967a2d9ca389751c72386cb98e53d04cf8d
+SHA512: 8771f632e94c1a3e6f26b8a52e11fef4c515b5e5862cf3c5e7c9b69560fe907daa1784dbca352e814cf9e4110da6eb8720d5af4c30c91b50189bf7da31090ae5
+Homepage: https://www.maxmind.com/
+Description: Program to look up records for one or more IPs/networks in one or more .mmdb databases.
+Vendor: MaxMind, Inc.
+
+Package: ngrok
+Architecture: amd64
+Version: 3.5.0
+Priority: optional
+Section: network
+Source: ngrok
+Maintainer: ngrok <release-bot@ngrok.com>
+Filename: pool/stable/main/ngrok_3.5.0_amd64.deb
+Size: 6541884
+MD5sum: eec181ff9fef85b8ed7f39b44c6fcadc
+SHA1: 7209f0a5018f3ad86c11551a74a47791c53551e7
+SHA256: 242e4b4c3fd4498f11499bda40d2e04bc3fe2d72f09a58c55774220991ed990a
+SHA512: e0bd446fc9a3a7a399b2612086e3a23ecc766a09d75972d4f586e2575322b2e7c9e8ee522f97315db40f5d1906c8a68aece0c48e7fd786142ea461c0ced37967
+Homepage: https://ngrok.com
+Description: ngrok secure tunnel agent
+
+Package: noisetorch
+Architecture: amd64
+Version: 0.12.2
+Priority: optional
+Section: sound
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 6825
+Filename: pool/stable/main/noisetorch_0.12.2_amd64.deb
+Size: 2433124
+MD5sum: 3075e84aab3bd953fc6cbc3eaa87eb9c
+SHA1: 0d5fac950deb3e438456b16650c195e749842c22
+SHA256: 45631807b006aa0ac8eafa92aa4e10346be92ab090a639217cb155ce335e22c7
+SHA512: 43ff507528f8874af726f9172bfb602b5a75024e9ed4e6784bcf6b5a99278cb1326198f3851d2fb72355173d21399c9d51830fc3eb4c34d39400b357cc8d8fe4
+Homepage: https://github.com/noisetorch/NoiseTorch
+Description: Real-time microphone noise suppression
+
+Package: onedrive
+Architecture: amd64
+Version: 2.4.25-1+np1
+Priority: optional
+Section: net
+Maintainer: Norbert Preining <norbert@preining.info>
+Installed-Size: 2677
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.52), libcurl4
+Filename: pool/stable/main/onedrive_2.4.25-1+np1_amd64.deb
+Size: 670428
+MD5sum: a99e6b0de90370b157ba9feda6b853ed
+SHA1: e13271b5cd3f826910066deedae3eac4947e7414
+SHA256: fc85d89ebd40d37075aeca8c726a2fc7ad28bc3b84d66c9ce1305d5f844e327c
+SHA512: b9fd27112cd24b8401445dc0d4144955a820a9a872945342272c4c094404a489f1a590ad9de29a29837f7f43b6fc3b84104c9f55a9c5254366eb0b2b26e1dcae
+Homepage: https://github.com/abraunegg/onedrive
+Description: folder synchronization with OneDrive
+ OneDrive is the cloud storage system of Microsoft. This package provides
+ the command line client specialising in synchronizing with OneDrive cloud
+ storage.
+
+Package: oxipng
+Architecture: amd64
+Version: 9.0.0
+Priority: optional
+Section: graphics
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 1678
+Filename: pool/stable/main/oxipng_9.0.0_amd64.deb
+Size: 581900
+MD5sum: fb6ac4aae29086d9186448bd1cbfc239
+SHA1: 147cc36da7999026f4000b4d1f581c52d2164c0a
+SHA256: 37a3ed8173fc16545a5cd84dfa1664b9f1c0abb1dbfe7f38279c3178fd2fed0a
+SHA512: 6406148f3b526aacf17ea0ee7b834fa3aa3ad606675b7f6a8ede8c4405ea3fb0ba79058635bf7820b86f1f4b0d6bc1226c225c3534b14907f4f97dfa23a0e5e8
+Homepage: https://github.com/shssoichiro/oxipng
+Description: A multithreaded PNG optimizer written in Rust
+
+Package: rclone
+Architecture: amd64
+Version: 1.65.0
+Priority: extra
+Section: default
+Maintainer: Nick Craig-Wood <nick@craig-wood.com>
+Installed-Size: 63060
+Provides: rclone
+Filename: pool/stable/main/rclone_1.65.0_amd64.deb
+Size: 20739288
+MD5sum: 66393459466d62498e8715f4dbb22806
+SHA1: b47d8b664b61faa4daf548ba8f6d839efa767065
+SHA256: 4ce340c17289861ff5e21249624acbe0450b8490a88595a33da6456737231567
+SHA512: ed941dadf71d945aada3e0f3ffe314f0fe2896ec809ced749c4ee6610a360641c072e12ebb64db1a6c29e1f1862ef5b3a9be74171e2006a2259447de203f8326
+Homepage: https://rclone.org
+Description: Rclone - "rsync for cloud storage"
+   is a command-line program to sync files and directories to and
+   from most cloud providers. It can also mount, tree, ncdu and lots
+   of other useful things.
+
+Package: solaar
+Architecture: all
+Version: 1.1.10+dfsg-2
+Priority: optional
+Section: misc
+Maintainer: Stephen Kitt <skitt@debian.org>
+Installed-Size: 1634
+Depends: debconf (>= 0.5) | debconf-2.0, udev, passwd | adduser, gir1.2-ayatanaappindicator3-0.1, gir1.2-gtk-3.0, gir1.2-notify-0.7, python3-dbus, python3-evdev, python3-gi, python3-psutil, python3-pyudev, python3-xlib, python3-yaml, python3:any
+Recommends: upower
+Filename: pool/stable/main/solaar_1.1.10+dfsg-2_all.deb
+Size: 306424
+MD5sum: b3d4f1f6394de760aaf925624f32fe12
+SHA1: 55f07902300719cbd440ed443211601dcc1255b4
+SHA256: 1eeb775381d652e23ee7fbf256aa51143441c4e9d13f2a74aa528eaa206d4659
+SHA512: 9ce2978603a4cfef61b889e3f8d8bba8f7b74f8c4036759f9457f87414ca52fa18b07151b7553d12377215db4f3c0937009a0106840ef134a06d40126edc3f04
+Homepage: https://pwr-solaar.github.io/Solaar/
+Description: Logitech Unifying Receiver peripherals manager for Linux
+ Solaar is a Linux device manager for Logitech's Unifying Receiver wireless
+ peripherals. It is able to pair/unpair devices to the receiver, and for
+ some devices to read battery status.
+
+Package: sops
+Architecture: amd64
+Version: 3.8.1
+Priority: optional
+Maintainer: SOPS maintainers <cncf-SOPS-maintainers@lists.cncf.io>
+Installed-Size: 21984
+Filename: pool/stable/main/sops_3.8.1_amd64.deb
+Size: 8356388
+MD5sum: ff7de8e088f47ac61f3745c14dd42682
+SHA1: 264b89379d2b78ab95c0cff08d5929b913d888ad
+SHA256: 535bce529e2df7368ffba3fed2b427b9f964318fa28959d913924a70ba01c086
+SHA512: fed15b4d9a1ce1a8e20f3d2f03c2997d658f49cff51771cfdb63751033163e79190f954fff4d800266a734646d120948773248d577d62442ede512ab23173a19
+Homepage: https://github.com/getsops/sops
+Description: Simple and flexible tool for managing secrets
+
+Package: ttyd
+Architecture: amd64
+Version: 1.7.4
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 1242
+Filename: pool/stable/main/ttyd_1.7.4_amd64.deb
+Size: 629296
+MD5sum: 6868b786686cfe3a202fbf5586e271a5
+SHA1: 73bd851e6142f3f7e360d3f1196fd64370c6c08e
+SHA256: 6503a4ab8820fb13c09694b3fc5c793d10ffe3c98caa5515baaf9cab668b5166
+SHA512: f44ec041f7bc142e03ea89c13d79ad94ca08c977728ab03dd941b84c14ed49680951d40b74bb1f2bb080a2e441bff8e6166d4fe6e8d827ebb9b8a63a0105d50a
+Homepage: https://tsl0922.github.io/ttyd/
+Description: CLI tool for sharing terminal over the web
+
+Package: ulauncher
+Architecture: all
+Version: 5.15.6
+Priority: extra
+Section: python
+Maintainer: Aleksandr Gornostal <ulauncher.app@gmail.com>
+Installed-Size: 6137
+Depends: python3-pyinotify, python3:any (>= 3.5~), libkeybinder-3.0-0, libgtk-3-0 (>= 3.10), gir1.2-gtk-3.0, gir1.2-keybinder-3.0 (>= 0.3), gir1.2-webkit2-4.0, gir1.2-glib-2.0, gir1.2-notify-0.7, gir1.2-gdkpixbuf-2.0, python3-gi, python3-gi-cairo, python3-dbus, python3-levenshtein, python3-websocket, python3-xdg, wmctrl
+Recommends: gir1.2-ayatanaappindicator3-0.1
+Filename: pool/stable/main/ulauncher_5.15.6_all.deb
+Size: 1856470
+MD5sum: ce91ed4e2bc023a551e54041dfe6b894
+SHA1: 89bbb18c0f514e1c322b343b3acb9d5e0e201e22
+SHA256: 51e9f3010dbd4344c84e106a12ac8a5231b4724714708aeef52f57cf1522fc5b
+SHA512: 4b01c14a69d503a9051c6d5c61d5c80cb1fadc0b45a68f45890c312d41604a54f98799716a7bd8f09373e3ed52b6433885790fc9c565e4516a8c2605801a40eb
+Homepage: https://ulauncher.io/
+Description: Application launcher for Linux
+ See https://ulauncher.io for more information
+
+Package: vhs
+Architecture: amd64
+Version: 0.6.0
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 23964
+Depends: ffmpeg, ttyd
+Filename: pool/stable/main/vhs_0.6.0_amd64.deb
+Size: 7059988
+MD5sum: 1694169091c0b7d067bbb2deb7db8bea
+SHA1: a315e1aaa0d6072dcde2576d1c1289c27f92e6f4
+SHA256: 3aeac9afce0b8f3f594c130f481a7e88692da3d11ed3cc77bbfa5eabb7741db2
+SHA512: a9a85b4a44655f1c8cdfbb3d636d239e3f37ea129a69734d1c4a342b7959479c4ac0cc344d27d7ef3320ac258a93ebaf2fe80c8825da029d1104c06e5c331f8f
+Homepage: https://charm.sh/
+Description: A tool for recording terminal GIFs
+
+Package: xclicker
+Architecture: amd64
+Version: 1.5.0
+Priority: optional
+Section: base
+Maintainer: robiot
+Depends: libx11-6, libxi6
+Filename: pool/stable/main/xclicker_1.5.0_amd64.deb
+Size: 21548
+MD5sum: 76fabc20049df6583d5d4d1e15872440
+SHA1: bd7be64d5ee24f23428d6fbcd4fbad8526b57846
+SHA256: 50a45b331d99e25f8982a07a9ec482496f1016c1f1b9a56d2205b0ae3e26a36f
+SHA512: 1d18185abfb45702c2badd269e637d0305323c1276f9b2ac6fab4e9b63d173324caa95ce6d132867e387849259d901cbe68fc466e5c8ea0287f6823338721433
+Description: Fast gui autoclicker for linux
+Vcs-Git: https://github.com/robiot/rustcat
+
+Package: yaru818-theme
+Architecture: all
+Version: 23.10.0-2
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Recommends: humanity-icon-theme
+Filename: pool/stable/main/yaru818-theme_23.10.0-2_all.deb
+Size: 27861584
+MD5sum: 6fdc6518514e86313543eea6a380b990
+SHA1: ccfa7bef4ca2d9c8caf7bae77f629ba9bb240234
+SHA256: 7013a09092a57713623a54145305e8b4e6cca64d00e2ca0af8d8012579c3d79e
+SHA512: dc35438c766ac2ce92f68e7e110011e918203496c560ec9225a5644751ad7d291145954dcd0f1b8db105bd2697562889d00dbcc381b87b605e4545129d5f7bfb
+Description: Yaru818 theme
+
+Package: yubico-authenticator
+Architecture: amd64
+Version: 6.3.0
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 120619
+Depends: pcscd
+Filename: pool/stable/main/yubico-authenticator_6.3.0_amd64.deb
+Size: 34510236
+MD5sum: a412257700ed56d0855a70461ff7acab
+SHA1: 59df2c1a4fb22b38412442839a6116effd41f7ac
+SHA256: d4e033555121f9d45e3c4cb391d35b1a2349d1a5392d26f5ca46dc586b8224c5
+SHA512: c27b600d3d425cc2bad6cf8a2fd80eb549a9bb53ddc7865db5988307221c1068cb1f44925a75c6f4644c15e719aab2823dbdb83eaaa7a40e4cca8fcf970ed762
+Homepage: https://github.com/Yubico/yubioath-flutter
+Description: Yubico Authenticator for Desktop
+
