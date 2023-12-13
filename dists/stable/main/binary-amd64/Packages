@@ -393,6 +393,68 @@ SHA512: f44ec041f7bc142e03ea89c13d79ad94ca08c977728ab03dd941b84c14ed49680951d40b
 Homepage: https://tsl0922.github.io/ttyd/
 Description: CLI tool for sharing terminal over the web
 
+Package: tuxedo-control-center
+Architecture: amd64
+Version: 2.0.11
+Priority: extra
+Section: default
+Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
+Installed-Size: 381766
+Depends: tuxedo-keyboard (>= 3.1.2), libayatana-appindicator3-1
+Conflicts: tuxedofancontrol
+Replaces: tuxedofancontrol
+Filename: pool/stable/main/tuxedo-control-center_2.0.11_amd64.deb
+Size: 81406032
+MD5sum: 8b826197749f630cbc0bf849dcbbb39a
+SHA1: d2abc1f0a2e46f80e27e29c3f2197fd1bfc75763
+SHA256: 47297fb044faa56b6f253d0e28d6cb9d7922781fb6a606ae2c91b91ac13b91f8
+SHA512: 3fa72d42c380009a9dc3d1ace15f470eff6dd832350674b3bd59c4a6e7795cb0fa8ef72753ffef7abd324f49153581964ba94b2f166938c8316380c914b28125
+Homepage: https://tuxedocomputers.com
+Description: 
+  TUXEDO Control Center Application
+License: GPL-3.0
+Vendor: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
+
+Package: tuxedo-dgpu-run
+Architecture: all
+Version: 1.1.0
+Priority: optional
+Section: misc
+Maintainer: Werner Sembach <tux@tuxedocomputers.com>
+Installed-Size: 32
+Filename: pool/stable/main/tuxedo-dgpu-run_1.1.0_all.deb
+Size: 5706
+MD5sum: 4c0f67c6611ffefae9968aa342c3e7ed
+SHA1: d35bfe417cdca19ed4008c131ea8197ee536d78a
+SHA256: 1074116133b2686b9dbbeec63cea247105cb83ce94f1de3d06a94b4cb5df9b5b
+SHA512: 89a768cc89e9ccfbdb8b3ad249f1cfbf40e49368fdeae30724e521149cc6dc9f6fda15035db0a6642c760c187570c78e36c5ae3e01e3646c8fd695a0834d27d8
+Homepage: https://tuxedocomputers.com
+Description: Add easy ways to launch programms on dGPU on optimus devices
+ This packages is intended to make it easy to use the on-demand mode on optimus
+ devices having both an iGPU and a dGPU.
+ Currently this package adds a right click menu entry "Run on dedicated GPU) to
+ desktop entries on the desktop or the start menu in KDE Plasma 5.
+
+Package: tuxedo-keyboard
+Architecture: all
+Version: 3.2.14
+Priority: optional
+Section: admin
+Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
+Depends: dkms (>= 1.95)
+Conflicts: tuxedo-keyboard-dkms (<= 2.0.0), tuxedo-wmi-dkms (<= 1.5.1), tuxedo-xp-xc-touchpad-key-fix, tuxedo-touchpad-fix (<= 1.0.8), tuxedo-xp-xc-airplane-mode-fix (<= 0.6), tuxedo-cc-wmi
+Replaces: tuxedo-keyboard-dkms (<= 2.0.0), tuxedo-wmi-dkms (<= 1.5.1), tuxedo-xp-xc-touchpad-key-fix, tuxedo-touchpad-fix (<= 1.0.8), tuxedo-xp-xc-airplane-mode-fix (<= 0.6), tuxedo-cc-wmi
+Filename: pool/stable/main/tuxedo-keyboard_3.2.14_all.deb
+Size: 34816
+MD5sum: 59bd9d2cc73be85cc74ffaa3b330c7ab
+SHA1: 622fd160f3a3a40aef74831b7ad7a3959039681c
+SHA256: 04226312c796f6e6bdf24cd28d64e1d43dab1e7d9536f91275439fa9402efe8a
+SHA512: 83fc3cea66667f4d48efc3fc0523fe14c1a6db144b49039abb7c3810b8f4da6f95f8f971c522dc17f2d12ff8c58e648c9a290975a5e1c269c008ccf889468506
+Homepage: https://www.tuxedocomputers.com
+Description: Keyboard driver for TUXEDO notebooks.
+ Keyboard & keyboard backlight driver for TUXEDO notebooks.
+ Meant for DKMS framework.
+
 Package: ulauncher
 Architecture: all
 Version: 5.15.6

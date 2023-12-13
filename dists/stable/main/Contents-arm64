@@ -12329,6 +12329,9 @@ usr/bin/act						    act
 usr/bin/appimagetool					    appimagetool
 usr/bin/aws-vault					    aws-vault
 usr/bin/cidr-merger					    cidr-merger
+usr/bin/dgpu-run					    tuxedo-dgpu-run
+usr/bin/dgpu-run-desktop-entry-kde			    tuxedo-dgpu-run
+usr/bin/dgpu-run-desktop-entry-kde-create-shortcut	    tuxedo-dgpu-run
 usr/bin/dive						    dive
 usr/bin/docker-credential-pass				    docker-credential-helpers
 usr/bin/docker-credential-secretservice			    docker-credential-helpers
@@ -12499,6 +12502,10 @@ usr/share/doc/rclone/README.txt				    rclone
 usr/share/doc/solaar/changelog.Debian.gz		    solaar
 usr/share/doc/solaar/changelog.gz			    solaar
 usr/share/doc/solaar/copyright				    solaar
+usr/share/doc/tuxedo-dgpu-run/changelog.gz		    tuxedo-dgpu-run
+usr/share/doc/tuxedo-dgpu-run/copyright			    tuxedo-dgpu-run
+usr/share/doc/tuxedo-keyboard/changelog.gz		    tuxedo-keyboard
+usr/share/doc/tuxedo-keyboard/copyright			    tuxedo-keyboard
 usr/share/doc/ulauncher/README.md			    ulauncher
 usr/share/doc/ulauncher/changelog.gz			    ulauncher
 usr/share/doc/ulauncher/copyright			    ulauncher
@@ -20580,6 +20587,8 @@ usr/share/icons/hicolor/scalable/apps/ulauncher-indicator.svg ulauncher
 usr/share/icons/hicolor/scalable/apps/ulauncher.svg	    ulauncher
 usr/share/icons/ubuntu-mono-dark/scalable/apps/ulauncher-indicator.svg ulauncher
 usr/share/icons/ubuntu-mono-light/scalable/apps/ulauncher-indicator.svg ulauncher
+usr/share/kservices5/ServiceMenus/runApplicationWithDedicatedGPU.desktop tuxedo-dgpu-run
+usr/share/kservices5/ServiceMenus/runBinariesWithDedicatedGPU.desktop tuxedo-dgpu-run
 usr/share/locale/ca/LC_MESSAGES/solaar.mo		    solaar
 usr/share/locale/cs/LC_MESSAGES/solaar.mo		    solaar
 usr/share/locale/da/LC_MESSAGES/solaar.mo		    solaar
@@ -20795,6 +20804,7 @@ usr/share/man/man1/rclone.1				    rclone
 usr/share/man/man1/solaar.1.gz				    solaar
 usr/share/metainfo/io.github.pwr_solaar.solaar.metainfo.xml solaar
 usr/share/pixmaps/xclicker.png				    xclicker
+usr/share/plasma/kickeractions/runApplicationWithDedicatedGPU.desktop tuxedo-dgpu-run
 usr/share/python3/runtime.d/solaar.rtupdate		    solaar
 usr/share/solaar/icons/light_000.png			    solaar
 usr/share/solaar/icons/light_020.png			    solaar
@@ -20862,6 +20872,8 @@ usr/share/solaar/lib/solaar/version			    solaar
 usr/share/sounds/Yaru818				    yaru818-theme
 usr/share/themes/Yaru818				    yaru818-theme
 usr/share/themes/Yaru818-dark				    yaru818-theme
+usr/share/tuxedo-keyboard/postinst			    tuxedo-keyboard
+usr/share/tuxedo-keyboard/tuxedo_keyboard.conf		    tuxedo-keyboard
 usr/share/ulauncher/media/calculator-icon.png		    ulauncher
 usr/share/ulauncher/media/executable-icon.png		    ulauncher
 usr/share/ulauncher/media/fileicons/3g2.png		    ulauncher
@@ -20998,3 +21010,18 @@ usr/share/zsh/site-functions/_glow			    glow
 usr/share/zsh/vendor-completions/_aws-vault		    aws-vault
 usr/share/zsh/vendor-completions/_onedrive		    onedrive
 usr/share/zsh/vendor-completions/_pack			    buildpacks-pack
+usr/src/tuxedo-keyboard-3.2.14/Makefile			    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/dkms.conf		    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/clevo_acpi.c		    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/clevo_interfaces.h	    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/clevo_keyboard.h	    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/clevo_leds.h		    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/clevo_wmi.c		    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/tuxedo_io/tuxedo_io.c    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/tuxedo_io/tuxedo_io_ioctl.h tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/tuxedo_keyboard.c	    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/tuxedo_keyboard_common.h tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/uniwill_interfaces.h	    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/uniwill_keyboard.h	    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/uniwill_leds.h	    tuxedo-keyboard
+usr/src/tuxedo-keyboard-3.2.14/src/uniwill_wmi.c	    tuxedo-keyboard
