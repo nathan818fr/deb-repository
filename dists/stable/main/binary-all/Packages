@@ -57,25 +57,46 @@ Description: Add easy ways to launch programms on dGPU on optimus devices
  Currently this package adds a right click menu entry "Run on dedicated GPU) to
  desktop entries on the desktop or the start menu in KDE Plasma 5.
 
+Package: tuxedo-drivers
+Architecture: all
+Version: 4.0.1
+Priority: optional
+Section: devel
+Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
+Installed-Size: 315
+Provides: tuxedo-keyboard (= 4.0.0)
+Depends: dkms (>= 2.1.0.0)
+Breaks: tuxedo-cc-wmi, tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms, tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix, tuxedo-wmi-dkms, tuxedo-xp-xc-airplane-mode-fix, tuxedo-xp-xc-touchpad-key-fix
+Replaces: tuxedo-cc-wmi, tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms, tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix, tuxedo-wmi-dkms, tuxedo-xp-xc-airplane-mode-fix, tuxedo-xp-xc-touchpad-key-fix
+Filename: pool/stable/main/tuxedo-drivers_4.0.1_all.deb
+Size: 49018
+MD5sum: f7263d6c37310622d6ae454efea98c9a
+SHA1: cec232b59fc1a0dda96e54ba397d17ce7f43d5ea
+SHA256: 41f0372c91d477976bb2f33000b5c50dfb76494524ff6e53b03586a359c40783
+SHA512: adbf3f75720ead8192f08f234b6f46de3da72432a325d7db1edd2b85a588a8a219071ca4555947f6b63d9003b35f3fb7a942a3e82e0f803f224309d9920fca6b
+Homepage: https://tuxedocomputers.com
+Description: Kernel modules for TUXEDO devices
+ Drivers for several platform devices for TUXEDO notebooks meant for DKMS
+ framework.
+
 Package: tuxedo-keyboard
 Architecture: all
-Version: 3.2.14
+Version: 4.0.1
 Priority: optional
-Section: admin
+Section: oldlibs
+Source: tuxedo-drivers
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
-Depends: dkms (>= 1.95)
-Conflicts: tuxedo-keyboard-dkms (<= 2.0.0), tuxedo-wmi-dkms (<= 1.5.1), tuxedo-xp-xc-touchpad-key-fix, tuxedo-touchpad-fix (<= 1.0.8), tuxedo-xp-xc-airplane-mode-fix (<= 0.6), tuxedo-cc-wmi
-Replaces: tuxedo-keyboard-dkms (<= 2.0.0), tuxedo-wmi-dkms (<= 1.5.1), tuxedo-xp-xc-touchpad-key-fix, tuxedo-touchpad-fix (<= 1.0.8), tuxedo-xp-xc-airplane-mode-fix (<= 0.6), tuxedo-cc-wmi
-Filename: pool/stable/main/tuxedo-keyboard_3.2.14_all.deb
-Size: 34816
-MD5sum: 59bd9d2cc73be85cc74ffaa3b330c7ab
-SHA1: 622fd160f3a3a40aef74831b7ad7a3959039681c
-SHA256: 04226312c796f6e6bdf24cd28d64e1d43dab1e7d9536f91275439fa9402efe8a
-SHA512: 83fc3cea66667f4d48efc3fc0523fe14c1a6db144b49039abb7c3810b8f4da6f95f8f971c522dc17f2d12ff8c58e648c9a290975a5e1c269c008ccf889468506
-Homepage: https://www.tuxedocomputers.com
-Description: Keyboard driver for TUXEDO notebooks.
- Keyboard & keyboard backlight driver for TUXEDO notebooks.
- Meant for DKMS framework.
+Installed-Size: 12
+Depends: tuxedo-drivers
+Filename: pool/stable/main/tuxedo-keyboard_4.0.1_all.deb
+Size: 5006
+MD5sum: fc0682abb8388e98132cd2d948213ce4
+SHA1: 9f2a07551de9f87d6ea217c3072baa1b88b35ae6
+SHA256: 727fad9dbb85ad557834887d58abf12b444f8cde14a0bf862927c3716feb65c7
+SHA512: 776c5b25e2b4a5e8efe31bbe2d6226920e70ba35193d446a81735ee61615328a4ffb4a8ac8bfc61043de8d53081b64e52c56b445d02ae934bc01c89ed7b957b8
+Homepage: https://tuxedocomputers.com
+Description: Keyboard driver for TUXEDO notebooks (dummy transitional package)
+ Transitional package for upgrades. This package can be safely removed.
 
 Package: ulauncher
 Architecture: all
