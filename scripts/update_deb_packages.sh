@@ -27,7 +27,7 @@ function main() {
   download_latest_gh_release yaru818-theme nathan818fr/yaru818
   download_from_apt onedrive https://download.opensuse.org/repositories/home:/npreining:/debian-ubuntu-onedrive/Debian_12 Packages
   download_from_apt ngrok https://ngrok-agent.s3.amazonaws.com dists/bullseye/main/binary-{amd64,arm64}/Packages
-  download_from_apt tuxedo-keyboard,tuxedo-control-center,tuxedo-dgpu-run https://deb.tuxedocomputers.com/ubuntu dists/jammy/main/binary-amd64/Packages
+  download_from_apt tuxedo-drivers,tuxedo-keyboard,tuxedo-control-center,tuxedo-dgpu-run https://deb.tuxedocomputers.com/ubuntu dists/jammy/main/binary-amd64/Packages
 }
 
 function download_nathan818_packages() {
