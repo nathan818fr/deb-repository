@@ -59,7 +59,7 @@ Description: Add easy ways to launch programms on dGPU on optimus devices
 
 Package: tuxedo-drivers
 Architecture: all
-Version: 4.0.1
+Version: 4.0.2
 Priority: optional
 Section: devel
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
@@ -68,12 +68,12 @@ Provides: tuxedo-keyboard (= 4.0.0)
 Depends: dkms (>= 2.1.0.0)
 Breaks: tuxedo-cc-wmi, tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms, tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix, tuxedo-wmi-dkms, tuxedo-xp-xc-airplane-mode-fix, tuxedo-xp-xc-touchpad-key-fix
 Replaces: tuxedo-cc-wmi, tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms, tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix, tuxedo-wmi-dkms, tuxedo-xp-xc-airplane-mode-fix, tuxedo-xp-xc-touchpad-key-fix
-Filename: pool/stable/main/tuxedo-drivers_4.0.1_all.deb
-Size: 49018
-MD5sum: f7263d6c37310622d6ae454efea98c9a
-SHA1: cec232b59fc1a0dda96e54ba397d17ce7f43d5ea
-SHA256: 41f0372c91d477976bb2f33000b5c50dfb76494524ff6e53b03586a359c40783
-SHA512: adbf3f75720ead8192f08f234b6f46de3da72432a325d7db1edd2b85a588a8a219071ca4555947f6b63d9003b35f3fb7a942a3e82e0f803f224309d9920fca6b
+Filename: pool/stable/main/tuxedo-drivers_4.0.2_all.deb
+Size: 49068
+MD5sum: cb1ff895813567cbe2705a8559476c2b
+SHA1: 9798da59e28373a196668f5b207d0fa426060935
+SHA256: 57da36ea34eb7275073bbbd82f02436c5398fc134db4ec3f17329f916e9a6abd
+SHA512: 9bbbb5680c38aec6aee1e3c7155a0b046ac41a028ea381785ce16a15e1ad675341ad1c969c482fcc6eb026347d4bae5433623d79828da6877ef5911e90fb0876
 Homepage: https://tuxedocomputers.com
 Description: Kernel modules for TUXEDO devices
  Drivers for several platform devices for TUXEDO notebooks meant for DKMS
@@ -81,19 +81,19 @@ Description: Kernel modules for TUXEDO devices
 
 Package: tuxedo-keyboard
 Architecture: all
-Version: 4.0.1
+Version: 4.0.2
 Priority: optional
 Section: oldlibs
 Source: tuxedo-drivers
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
 Installed-Size: 12
 Depends: tuxedo-drivers
-Filename: pool/stable/main/tuxedo-keyboard_4.0.1_all.deb
-Size: 5006
-MD5sum: fc0682abb8388e98132cd2d948213ce4
-SHA1: 9f2a07551de9f87d6ea217c3072baa1b88b35ae6
-SHA256: 727fad9dbb85ad557834887d58abf12b444f8cde14a0bf862927c3716feb65c7
-SHA512: 776c5b25e2b4a5e8efe31bbe2d6226920e70ba35193d446a81735ee61615328a4ffb4a8ac8bfc61043de8d53081b64e52c56b445d02ae934bc01c89ed7b957b8
+Filename: pool/stable/main/tuxedo-keyboard_4.0.2_all.deb
+Size: 5048
+MD5sum: 1baa0276b2c58a3daa279d6227473ee7
+SHA1: 848dd1984013fb4663a253b396090984f67f2bea
+SHA256: 999b5a161f44c6474c3254ec38029c1dcd3eb77bf7685d29b755a0ea7793ac81
+SHA512: 130365e1a38a40584148c97ee17ff22774f7b033846957186ec630ada2da779544ea1fae3fdab488370f395139ce78bc761d6d0d15d3be10fac6b92a7afafefc
 Homepage: https://tuxedocomputers.com
 Description: Keyboard driver for TUXEDO notebooks (dummy transitional package)
  Transitional package for upgrades. This package can be safely removed.

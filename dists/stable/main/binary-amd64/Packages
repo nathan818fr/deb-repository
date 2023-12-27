@@ -1,17 +1,17 @@
 Package: act
 Architecture: amd64
-Version: 0.2.55
+Version: 0.2.56
 Priority: optional
 Section: utils
 Maintainer: Nathan Poirier <nathan@poirier.io>
-Installed-Size: 15892
+Installed-Size: 15924
 Conflicts: artemis
-Filename: pool/stable/main/act_0.2.55_amd64.deb
-Size: 4832604
-MD5sum: 002fac7fbc846d2fda80afcec30052e7
-SHA1: 41a1ee63af807c7d00feb7f1ceb70f8b0f66fb8f
-SHA256: 6e9929cebaf4d79c6ccd3f6b31344bc11af832349ebca950d7fce8fe4a1ef900
-SHA512: 873e4872a3671adad7f1c612eb7b5ef26b404bebd059dfd55c662f92b18b6d904d2fde4deb69f64040e2bb5bccf2afdab38b9b06bf1ae617ac02c46f169dce00
+Filename: pool/stable/main/act_0.2.56_amd64.deb
+Size: 4841488
+MD5sum: 922510cde433db60d2d63bed45fc1a55
+SHA1: 96e5c80ac0761c1c46bc8d0c53dea975ccfb0fdf
+SHA256: 7546e9a18266b2bf3fa8da886eef17b09649975a1ebfcb7d1180110256ffb2dc
+SHA512: 971c041dedd9cf61953276fa9302fa26c6ee025636c5b92153076364590609cba292409e699024f222c926ec04ee07646e75e4b86299302a19400543257aa501
 Homepage: https://nektosact.com/
 Description: CLI tool to run GitHub Actions locally
 
@@ -49,18 +49,18 @@ Description: A vault for securely storing and accessing AWS credentials in devel
 
 Package: bitwarden-cli
 Architecture: amd64
-Version: 2023.12.0
+Version: 2023.12.1
 Priority: optional
 Section: utils
 Maintainer: Nathan Poirier <nathan@poirier.io>
 Installed-Size: 101492
 Conflicts: bitwarden
-Filename: pool/stable/main/bitwarden-cli_2023.12.0_amd64.deb
-Size: 22342956
-MD5sum: 7ab1de2b0433f9fc28d7553959a66b6d
-SHA1: 151c53bd069b116fdd522727770554da5e496643
-SHA256: d8c5d438b6f1d6177df0c4b973265b4285eff2e24e41aab67e95fe1a681c06ed
-SHA512: 48a8b2bc01deb942f6f753e0d2d98b1cb862a38cbdb1b7cba7dd137d35ad12c40178b415558ae6837bd3dfd173db2a1d2892cec1b0865a7ce4d3120a824dd862
+Filename: pool/stable/main/bitwarden-cli_2023.12.1_amd64.deb
+Size: 22344912
+MD5sum: 8abb114ded133c34e3acff123334a383
+SHA1: 29c17efdc70eb6e11fd6b15aae65511e1fdda1d4
+SHA256: f8cda94a16dbd0fa0e0e258534b82e08b9fbf18b1381b7af5c6ee506bdd9df6a
+SHA512: 4deed637a550489152acc334098b0e9aae51f4690c11081968ef4944ee24e2b0b9879af55fd2282b397c996983b9802513ee25ba73bf3696db30d669d5e117fc
 Homepage: https://bitwarden.com/help/cli/
 Description: CLI tool to access and manage a Bitwarden vault.
 
@@ -395,20 +395,20 @@ Description: CLI tool for sharing terminal over the web
 
 Package: tuxedo-control-center
 Architecture: amd64
-Version: 2.1.1
+Version: 2.1.2
 Priority: extra
 Section: default
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
-Installed-Size: 386239
+Installed-Size: 386249
 Depends: tuxedo-keyboard (>= 3.1.2) | tuxedo-drivers (>= 3.1.2), libayatana-appindicator3-1
 Conflicts: tuxedofancontrol
 Replaces: tuxedofancontrol
-Filename: pool/stable/main/tuxedo-control-center_2.1.1_amd64.deb
-Size: 81967312
-MD5sum: 4b01e52b3cb42605f34a49aba9fdcbcf
-SHA1: e8593780fe7c63216ef27d469da7fdfeb1e1859a
-SHA256: 8c57154e41e3373295062414ea083648683450365ee653a5f7a3229f57d9a1f1
-SHA512: 3987fe000aa2f604092ed1e11d73ecf31abcb43fa6adc4c00a10c2f4c65003d7ae723d82461bb3bcc202fa63e4d0f61048d942de43db94bd6aec3928a5dad84d
+Filename: pool/stable/main/tuxedo-control-center_2.1.2_amd64.deb
+Size: 81664870
+MD5sum: 19a306be2a5688b490bf73e91d94f666
+SHA1: 9986279640dba7d9c85349d12a59327f5d9b8edf
+SHA256: c9fc476187f4572cd24bd556aa9c1364a20bdf98707add8bb72bc059483c4d94
+SHA512: 8cb7e95db906e03540c20a1e0556fb66c1ed5e6d39df21af2dbc0b34de204e4f50f6036a6fad4f3b865229381f123a00a7a33c6452f4eb76da9e6465d60836d3
 Homepage: https://tuxedocomputers.com
 Description: 
   TUXEDO Control Center Application
@@ -437,7 +437,7 @@ Description: Add easy ways to launch programms on dGPU on optimus devices
 
 Package: tuxedo-drivers
 Architecture: all
-Version: 4.0.1
+Version: 4.0.2
 Priority: optional
 Section: devel
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
@@ -446,12 +446,12 @@ Provides: tuxedo-keyboard (= 4.0.0)
 Depends: dkms (>= 2.1.0.0)
 Breaks: tuxedo-cc-wmi, tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms, tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix, tuxedo-wmi-dkms, tuxedo-xp-xc-airplane-mode-fix, tuxedo-xp-xc-touchpad-key-fix
 Replaces: tuxedo-cc-wmi, tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms, tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix, tuxedo-wmi-dkms, tuxedo-xp-xc-airplane-mode-fix, tuxedo-xp-xc-touchpad-key-fix
-Filename: pool/stable/main/tuxedo-drivers_4.0.1_all.deb
-Size: 49018
-MD5sum: f7263d6c37310622d6ae454efea98c9a
-SHA1: cec232b59fc1a0dda96e54ba397d17ce7f43d5ea
-SHA256: 41f0372c91d477976bb2f33000b5c50dfb76494524ff6e53b03586a359c40783
-SHA512: adbf3f75720ead8192f08f234b6f46de3da72432a325d7db1edd2b85a588a8a219071ca4555947f6b63d9003b35f3fb7a942a3e82e0f803f224309d9920fca6b
+Filename: pool/stable/main/tuxedo-drivers_4.0.2_all.deb
+Size: 49068
+MD5sum: cb1ff895813567cbe2705a8559476c2b
+SHA1: 9798da59e28373a196668f5b207d0fa426060935
+SHA256: 57da36ea34eb7275073bbbd82f02436c5398fc134db4ec3f17329f916e9a6abd
+SHA512: 9bbbb5680c38aec6aee1e3c7155a0b046ac41a028ea381785ce16a15e1ad675341ad1c969c482fcc6eb026347d4bae5433623d79828da6877ef5911e90fb0876
 Homepage: https://tuxedocomputers.com
 Description: Kernel modules for TUXEDO devices
  Drivers for several platform devices for TUXEDO notebooks meant for DKMS
@@ -459,19 +459,19 @@ Description: Kernel modules for TUXEDO devices
 
 Package: tuxedo-keyboard
 Architecture: all
-Version: 4.0.1
+Version: 4.0.2
 Priority: optional
 Section: oldlibs
 Source: tuxedo-drivers
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
 Installed-Size: 12
 Depends: tuxedo-drivers
-Filename: pool/stable/main/tuxedo-keyboard_4.0.1_all.deb
-Size: 5006
-MD5sum: fc0682abb8388e98132cd2d948213ce4
-SHA1: 9f2a07551de9f87d6ea217c3072baa1b88b35ae6
-SHA256: 727fad9dbb85ad557834887d58abf12b444f8cde14a0bf862927c3716feb65c7
-SHA512: 776c5b25e2b4a5e8efe31bbe2d6226920e70ba35193d446a81735ee61615328a4ffb4a8ac8bfc61043de8d53081b64e52c56b445d02ae934bc01c89ed7b957b8
+Filename: pool/stable/main/tuxedo-keyboard_4.0.2_all.deb
+Size: 5048
+MD5sum: 1baa0276b2c58a3daa279d6227473ee7
+SHA1: 848dd1984013fb4663a253b396090984f67f2bea
+SHA256: 999b5a161f44c6474c3254ec38029c1dcd3eb77bf7685d29b755a0ea7793ac81
+SHA512: 130365e1a38a40584148c97ee17ff22774f7b033846957186ec630ada2da779544ea1fae3fdab488370f395139ce78bc761d6d0d15d3be10fac6b92a7afafefc
 Homepage: https://tuxedocomputers.com
 Description: Keyboard driver for TUXEDO notebooks (dummy transitional package)
  Transitional package for upgrades. This package can be safely removed.
