@@ -1,0 +1,193 @@
+Package: humanity-icon-theme
+Architecture: all
+Version: 0.6.16
+Priority: optional
+Section: gnome
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 20660
+Depends: adwaita-icon-theme, hicolor-icon-theme
+Filename: pool/stable/main/humanity-icon-theme_0.6.16_all.deb
+Size: 1247592
+MD5sum: d2c0c7fe48755a161379456426255588
+SHA1: debd5cc38b848a5c95a2612e7f20177de2ee475f
+SHA256: 6f544f0f887d1db37914ec89ad53403963a574994cc5242fc206d5f8949a4005
+SHA512: 017d3de230b2270c6c39f912b1e349cb19f73a58b8f159750f36818126ed7cf4321417184a57d7a2ba173b87063495b960dde1d9f116044f562b130b0b8084e0
+Description: Humanity Icon theme
+ Humanity and Humanity Dark are nice and well polished icon themes for
+ the GNOME desktop.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.13.0-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 122
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib
+Filename: pool/stable/main/protonvpn-cli_3.13.0-1_all.deb
+Size: 28300
+MD5sum: 3488909ecf00039945c573988503c60c
+SHA1: e75ef8e0f32da7391caa8ea277d314b5af50ddd3
+SHA256: 7d5900bb9b82831a2c3bf19c5b19c40817a403d011004bd64048a5b22ab7bd6f
+SHA512: 45dc7a0f7744edab924727f3fb8002fa09176dbac381eb3de111737dbc07499cc17237575e680d5ab3f0c368f100b9f4b4da0f51d625e3aa724fb9b0898e6272
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN CLI (Python 3)
+ Package installs official Proton VPN CLI.
+
+Package: python3-proton-client
+Architecture: all
+Version: 0.7.1-2
+Priority: optional
+Section: net
+Source: proton-python-client
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 125
+Depends: python3-bcrypt, python3-gnupg, python3-openssl, python3-requests (>= 2.16.0), python3:any (>= 3.5~), python3-dnspython
+Breaks: python3-protonvpn-nm-lib (<< 3.5.0)
+Filename: pool/stable/main/python3-proton-client_0.7.1-2_all.deb
+Size: 31156
+MD5sum: b0e5757fa7606fd5439163c082d590d1
+SHA1: 13b6a5d69181e2db74f9d0846dbaecd789d50116
+SHA256: 2aa4d298d218d15a8a8ef632f4359164f69bf619dbc2d37f871ac7a431db2590
+SHA512: 5b58f01b1fad781c41089cef11826cf9b68b1b5b1da5333c2fe03a66ac16ede2a707ecc955a2bf44390d93607b8fe7b47845b93bfacc63c768f072af0535cb70
+Homepage: https://github.com/ProtonMail/proton-python-client
+Description: Proton SRP (Python 3)
+ Safely login with ProtonVPN credentials to connect to Proton.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.16.0-1
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 438
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.11.0), protonvpn-gui (<< 1.9.0)
+Filename: pool/stable/main/python3-protonvpn-nm-lib_3.16.0-1_all.deb
+Size: 74676
+MD5sum: e850b4e2395e660483cdc475e6a96a3f
+SHA1: 85d0063fb1acf1c92b41564ad17d6116a7afa1e9
+SHA256: 007b2e95ed5ef637d1088c4ee01c4a63553f72bfe6ee62984e25b2e3ba102e67
+SHA512: 12bf8aae3ef23bf0d65131e1eb5f0d7b6d60be7425df1e2e22cb8b52230ad3cabaf9676be5840155ad212b36c96de6caaaae91be5d7761fdf43ebf6e5590f556
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN NM library (Python 3)
+ Package installs official Proton VPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: solaar
+Architecture: all
+Version: 1.1.10+dfsg-2
+Priority: optional
+Section: misc
+Maintainer: Stephen Kitt <skitt@debian.org>
+Installed-Size: 1634
+Depends: debconf (>= 0.5) | debconf-2.0, udev, passwd | adduser, gir1.2-ayatanaappindicator3-0.1, gir1.2-gtk-3.0, gir1.2-notify-0.7, python3-dbus, python3-evdev, python3-gi, python3-psutil, python3-pyudev, python3-xlib, python3-yaml, python3:any
+Recommends: upower
+Filename: pool/stable/main/solaar_1.1.10+dfsg-2_all.deb
+Size: 306424
+MD5sum: b3d4f1f6394de760aaf925624f32fe12
+SHA1: 55f07902300719cbd440ed443211601dcc1255b4
+SHA256: 1eeb775381d652e23ee7fbf256aa51143441c4e9d13f2a74aa528eaa206d4659
+SHA512: 9ce2978603a4cfef61b889e3f8d8bba8f7b74f8c4036759f9457f87414ca52fa18b07151b7553d12377215db4f3c0937009a0106840ef134a06d40126edc3f04
+Homepage: https://pwr-solaar.github.io/Solaar/
+Description: Logitech Unifying Receiver peripherals manager for Linux
+ Solaar is a Linux device manager for Logitech's Unifying Receiver wireless
+ peripherals. It is able to pair/unpair devices to the receiver, and for
+ some devices to read battery status.
+
+Package: tuxedo-dgpu-run
+Architecture: all
+Version: 1.1.0
+Priority: optional
+Section: misc
+Maintainer: Werner Sembach <tux@tuxedocomputers.com>
+Installed-Size: 32
+Filename: pool/stable/main/tuxedo-dgpu-run_1.1.0_all.deb
+Size: 5706
+MD5sum: 4c0f67c6611ffefae9968aa342c3e7ed
+SHA1: d35bfe417cdca19ed4008c131ea8197ee536d78a
+SHA256: 1074116133b2686b9dbbeec63cea247105cb83ce94f1de3d06a94b4cb5df9b5b
+SHA512: 89a768cc89e9ccfbdb8b3ad249f1cfbf40e49368fdeae30724e521149cc6dc9f6fda15035db0a6642c760c187570c78e36c5ae3e01e3646c8fd695a0834d27d8
+Homepage: https://tuxedocomputers.com
+Description: Add easy ways to launch programms on dGPU on optimus devices
+ This packages is intended to make it easy to use the on-demand mode on optimus
+ devices having both an iGPU and a dGPU.
+ Currently this package adds a right click menu entry "Run on dedicated GPU) to
+ desktop entries on the desktop or the start menu in KDE Plasma 5.
+
+Package: tuxedo-drivers
+Architecture: all
+Version: 4.3.1
+Priority: optional
+Section: devel
+Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
+Installed-Size: 391
+Provides: tuxedo-keyboard (= 4.0.0)
+Depends: dkms (>= 2.1.0.0)
+Breaks: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
+Replaces: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
+Filename: pool/stable/main/tuxedo-drivers_4.3.1_all.deb
+Size: 55788
+MD5sum: e51c555262fae119cb1321abee28b575
+SHA1: 635b6531cea9efca7cb6fe6de30e8e3e0a71c5da
+SHA256: dd6f0fa9198868082c80b71fa4b8bf25e04e2dff1246c2404cd74fcd72ccb4e5
+SHA512: 3a279c7f3ca590e62d55497b23e53d1c2b69148087a376a3458d8182ff7064c6ef7449e5feeb65cf0579a062456a01c3ec969b6cec1e745aa047f51e4a0d752b
+Homepage: https://tuxedocomputers.com
+Description: Kernel modules for TUXEDO devices
+ Drivers for several platform devices for TUXEDO notebooks meant for DKMS.
+
+Package: tuxedo-keyboard
+Architecture: all
+Version: 4.3.1
+Priority: optional
+Section: oldlibs
+Source: tuxedo-drivers
+Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
+Installed-Size: 12
+Depends: tuxedo-drivers
+Filename: pool/stable/main/tuxedo-keyboard_4.3.1_all.deb
+Size: 5488
+MD5sum: 0e021df6fb79199ec67c24a9c4a6a028
+SHA1: d284826817536652bc601772add9322e2bc6280b
+SHA256: 991f25f3826b83f201a783996cd3f536a0cecb8c8cd22092f2a9ce40a4e05f35
+SHA512: f7928bf2a428e40aba297bf6e9bc2702e40ac8173d6bc38dbf756d48d960a415d138374b40a037db104b6b6949c39638ce93c1ef2b32ab58f6bf130f9bf92524
+Homepage: https://tuxedocomputers.com
+Description: Keyboard back-light driver for ITE devices (dummy transitional package)
+ Transitional package for upgrades. This package can be safely removed.
+
+Package: ulauncher
+Architecture: all
+Version: 5.15.6
+Priority: extra
+Section: python
+Maintainer: Aleksandr Gornostal <ulauncher.app@gmail.com>
+Installed-Size: 6137
+Depends: python3-pyinotify, python3:any (>= 3.5~), libkeybinder-3.0-0, libgtk-3-0 (>= 3.10), gir1.2-gtk-3.0, gir1.2-keybinder-3.0 (>= 0.3), gir1.2-webkit2-4.0, gir1.2-glib-2.0, gir1.2-notify-0.7, gir1.2-gdkpixbuf-2.0, python3-gi, python3-gi-cairo, python3-dbus, python3-levenshtein, python3-websocket, python3-xdg, wmctrl
+Recommends: gir1.2-ayatanaappindicator3-0.1
+Filename: pool/stable/main/ulauncher_5.15.6_all.deb
+Size: 1856470
+MD5sum: ce91ed4e2bc023a551e54041dfe6b894
+SHA1: 89bbb18c0f514e1c322b343b3acb9d5e0e201e22
+SHA256: 51e9f3010dbd4344c84e106a12ac8a5231b4724714708aeef52f57cf1522fc5b
+SHA512: 4b01c14a69d503a9051c6d5c61d5c80cb1fadc0b45a68f45890c312d41604a54f98799716a7bd8f09373e3ed52b6433885790fc9c565e4516a8c2605801a40eb
+Homepage: https://ulauncher.io/
+Description: Application launcher for Linux
+ See https://ulauncher.io for more information
+
+Package: yaru818-theme
+Architecture: all
+Version: 23.10.0-2
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Recommends: humanity-icon-theme
+Filename: pool/stable/main/yaru818-theme_23.10.0-2_all.deb
+Size: 27861584
+MD5sum: 6fdc6518514e86313543eea6a380b990
+SHA1: ccfa7bef4ca2d9c8caf7bae77f629ba9bb240234
+SHA256: 7013a09092a57713623a54145305e8b4e6cca64d00e2ca0af8d8012579c3d79e
+SHA512: dc35438c766ac2ce92f68e7e110011e918203496c560ec9225a5644751ad7d291145954dcd0f1b8db105bd2697562889d00dbcc381b87b605e4545129d5f7bfb
+Description: Yaru818 theme
+
