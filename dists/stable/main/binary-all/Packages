@@ -80,19 +80,19 @@ Description: Proton VPN NM library (Python 3)
 
 Package: solaar
 Architecture: all
-Version: 1.1.10+dfsg-2
+Version: 1.1.11+dfsg-2
 Priority: optional
 Section: misc
 Maintainer: Stephen Kitt <skitt@debian.org>
-Installed-Size: 1634
+Installed-Size: 1671
 Depends: debconf (>= 0.5) | debconf-2.0, udev, passwd | adduser, gir1.2-ayatanaappindicator3-0.1, gir1.2-gtk-3.0, gir1.2-notify-0.7, python3-dbus, python3-evdev, python3-gi, python3-psutil, python3-pyudev, python3-xlib, python3-yaml, python3:any
 Recommends: upower
-Filename: pool/stable/main/solaar_1.1.10+dfsg-2_all.deb
-Size: 306424
-MD5sum: b3d4f1f6394de760aaf925624f32fe12
-SHA1: 55f07902300719cbd440ed443211601dcc1255b4
-SHA256: 1eeb775381d652e23ee7fbf256aa51143441c4e9d13f2a74aa528eaa206d4659
-SHA512: 9ce2978603a4cfef61b889e3f8d8bba8f7b74f8c4036759f9457f87414ca52fa18b07151b7553d12377215db4f3c0937009a0106840ef134a06d40126edc3f04
+Filename: pool/stable/main/solaar_1.1.11+dfsg-2_all.deb
+Size: 318656
+MD5sum: 9061afedd1ead39d7231575660d547a6
+SHA1: c8c368d241a71bf5de5b75441f3898ddd6adef1d
+SHA256: a14b81f092d9e7d0357397e6b25d9952936ae9ec1a78ef7f0857cb9112f18880
+SHA512: d506be5d7b8ff89e2655e21c36cc68535a7f1663d0e4aab4164318d87f47c8dce8bd1775f9f6bb97b17eb2ee46173b54d2dbae0c31bafb72f1b5ab103ed9681f
 Homepage: https://pwr-solaar.github.io/Solaar/
 Description: Logitech Unifying Receiver peripherals manager for Linux
  Solaar is a Linux device manager for Logitech's Unifying Receiver wireless
@@ -121,7 +121,7 @@ Description: Add easy ways to launch programms on dGPU on optimus devices
 
 Package: tuxedo-drivers
 Architecture: all
-Version: 4.3.1
+Version: 4.3.2
 Priority: optional
 Section: devel
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
@@ -130,31 +130,31 @@ Provides: tuxedo-keyboard (= 4.0.0)
 Depends: dkms (>= 2.1.0.0)
 Breaks: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
 Replaces: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
-Filename: pool/stable/main/tuxedo-drivers_4.3.1_all.deb
-Size: 55788
-MD5sum: e51c555262fae119cb1321abee28b575
-SHA1: 635b6531cea9efca7cb6fe6de30e8e3e0a71c5da
-SHA256: dd6f0fa9198868082c80b71fa4b8bf25e04e2dff1246c2404cd74fcd72ccb4e5
-SHA512: 3a279c7f3ca590e62d55497b23e53d1c2b69148087a376a3458d8182ff7064c6ef7449e5feeb65cf0579a062456a01c3ec969b6cec1e745aa047f51e4a0d752b
+Filename: pool/stable/main/tuxedo-drivers_4.3.2_all.deb
+Size: 55978
+MD5sum: 0a84b8f498801f761180b26f00c84a3b
+SHA1: c33f31f7b64dcb6c1786f08425d455929edf5c54
+SHA256: 896b44f1b2eb45b946babace7cd32901f2cb67edc7ec123e758ffb319bd187de
+SHA512: 60ad8512793d9e9c2179fc444f1ef46cceee8cdacb48533339e62d5c12c11dab494c83b979749af99f04ef31d359f053d60df20f904d93afbbf876ffe404bb60
 Homepage: https://tuxedocomputers.com
 Description: Kernel modules for TUXEDO devices
  Drivers for several platform devices for TUXEDO notebooks meant for DKMS.
 
 Package: tuxedo-keyboard
 Architecture: all
-Version: 4.3.1
+Version: 4.3.2
 Priority: optional
 Section: oldlibs
 Source: tuxedo-drivers
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
 Installed-Size: 12
 Depends: tuxedo-drivers
-Filename: pool/stable/main/tuxedo-keyboard_4.3.1_all.deb
-Size: 5488
-MD5sum: 0e021df6fb79199ec67c24a9c4a6a028
-SHA1: d284826817536652bc601772add9322e2bc6280b
-SHA256: 991f25f3826b83f201a783996cd3f536a0cecb8c8cd22092f2a9ce40a4e05f35
-SHA512: f7928bf2a428e40aba297bf6e9bc2702e40ac8173d6bc38dbf756d48d960a415d138374b40a037db104b6b6949c39638ce93c1ef2b32ab58f6bf130f9bf92524
+Filename: pool/stable/main/tuxedo-keyboard_4.3.2_all.deb
+Size: 5596
+MD5sum: 7aaaf1a704308fa58bcaeb0f0841ce09
+SHA1: f3fe7142ed0330a7e9322300e3d95906fa434281
+SHA256: 0742599fbf0740387828d65751f7439fa1b39ace2b7a30d5dc4b3c3f3457dacc
+SHA512: 0459714e40e860a524ae5f64a9406413a7041f8a3ba30bc75e32bb3852ee78e308df7084d48480620c9ad67d3f39c1300c9132fbf192b6fb0dd4a2c85dfc3ebb
 Homepage: https://tuxedocomputers.com
 Description: Keyboard back-light driver for ITE devices (dummy transitional package)
  Transitional package for upgrades. This package can be safely removed.
