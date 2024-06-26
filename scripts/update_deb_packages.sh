@@ -1,15 +1,17 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -Eeuo pipefail
 shopt -s inherit_errexit
 
 function main() {
   SUPPORTED_ARCHS=(all amd64 arm64)
-  SITE_DIR="$(realpath -m "$(dirname "$(realpath -m "$0")")/../site")"
+  SITE_DIR="$(realpath -m -- "$(dirname -- "$(realpath -m -- "$0")")/../site")"
+  declare -gr SUPPORTED_ARCHS SITE_DIR
 
   # Create a temporary directory that will be automatically deleted on exit
-  TEMP_DIR="$(umask 077 > /dev/null && realpath -m "$(mktemp -d)")"
+  TEMP_DIR="$(umask 077 > /dev/null && realpath -m -- "$(mktemp -d)")"
+  declare -gr TEMP_DIR
   if [[ -d "$TEMP_DIR" ]]; then
-    function cleanup_TEMP_DIR() { rm -rf "$TEMP_DIR"; }
+    function cleanup_TEMP_DIR() { rm -rf -- "$TEMP_DIR"; }
     trap cleanup_TEMP_DIR INT TERM EXIT
   fi
 
@@ -36,7 +38,7 @@ function download_nathan818_packages() {
   packages="$(
     gh_curl -fsSL "https://api.github.com/repos/nathan818fr/deb-packages/releases/tags/latest" \
       | jq -Mr '.assets[] | select(.name | endswith(".deb")) | "\(.created_at)\t\(.name)\t\(.browser_download_url)"' \
-      | LANG=C sort -r
+      | LC_ALL=C sort -r
   )"
 
   declare -A downloaded_packages
@@ -115,7 +117,7 @@ function download_from_apt() {
           --arg pkg_name "$pkg_name" \
           --arg pkg_arch "$pkg_arch" \
           '.[] | select(.Package == $pkg_name and .Architecture == $pkg_arch) | "\(.Version)\t\(.Filename)"' \
-          | LANG=C sort -rV | head -n1
+          | LC_ALL=C sort -rV | head -n1
       )"
       if [[ -z "$pkg_params" ]]; then continue; fi
 
@@ -218,5 +220,4 @@ function gh_curl() {
   curl -H 'Authorization: Basic Og==' "$@"
 }
 
-main "$@"
-exit "$?"
+eval 'main "$@";exit "$?"'

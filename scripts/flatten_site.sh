@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -Eeuo pipefail
 shopt -s inherit_errexit
 
 function main() {
   local site_dir
-  site_dir="$(realpath -m "$(dirname "$(realpath -m "$0")")/../site")"
+  site_dir="$(realpath -m -- "$(dirname -- "$(realpath -m -- "$0")")/../site")"
 
   git -C "$site_dir" update-ref -d HEAD
   git -C "$site_dir" checkout --orphan site
@@ -13,5 +13,4 @@ function main() {
   git -C "$site_dir" push --force
 }
 
-main "$@"
-exit "$?"
+eval 'main "$@";exit "$?"'

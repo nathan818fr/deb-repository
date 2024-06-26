@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -Eeuo pipefail
 shopt -s inherit_errexit
 
 function main() {
-  python3 - debian:<(get_debian_contents) nathan818fr:<(get_site_contents) << 'EOF'
+  python3 - debian:<(get_debian_contents || kill -PIPE $$) nathan818fr:<(get_site_contents || kill -PIPE $$) << 'EOF'
 import sys
 
 any_contents = {}
@@ -31,7 +31,7 @@ EOF
 
 function get_site_contents() {
   local site_dir
-  site_dir="$(realpath -m "$(dirname "$(realpath -m "$0")")/../site")"
+  site_dir="$(realpath -m -- "$(dirname -- "$(realpath -m -- "$0")")/../site")"
 
   cat "${site_dir}/dists/stable/main/Contents-amd64"
 }
@@ -47,5 +47,4 @@ function get_debian_contents() {
   curl -fsSL "https://deb.debian.org/debian/dists/stable/non-free-firmware/Contents-amd64.gz" | gunzip
 }
 
-main "$@"
-exit "$?"
+eval 'main "$@";exit "$?"'

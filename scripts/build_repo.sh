@@ -1,19 +1,19 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -Eeuo pipefail
 shopt -s inherit_errexit
 
 function main() {
-  local signing_key site_dir distributions components archs
+  local repo_name signing_key site_dir distributions components archs
   repo_name='nathan818fr'
   signing_key='nathan818 Debian Repository Signing Key <deb-repo@nathan818.fr>'
-  site_dir="$(realpath -m "$(dirname "$(realpath -m "$0")")/../site")"
+  site_dir="$(realpath -m -- "$(dirname -- "$(realpath -m -- "$0")")/../site")"
   distributions=(stable)
   components=(main)
   archs=(all amd64 arm64)
 
   # Loop through distributions components
   pushd "$site_dir" > /dev/null
-  local pool_dir dist_dir arch_dist_dir release_file
+  local distribution component pool_dir dist_dir arch arch_dist_dir release_file
   for distribution in "${distributions[@]}"; do
     for component in "${components[@]}"; do
       pool_dir="pool/${distribution}/${component}"
@@ -25,10 +25,10 @@ function main() {
         mkdir -p -- "$arch_dist_dir"
 
         printf "Generating Packages index for %s/%s/%s ...\n" "$distribution" "$component" "$arch"
-        apt-ftparchive -a "$arch" packages "$pool_dir" > "${arch_dist_dir}/Packages"
+        apt-ftparchive -a "$arch" packages -- "$pool_dir" > "${arch_dist_dir}/Packages"
 
         printf "Generating Contents index for %s/%s/%s ...\n" "$distribution" "$component" "$arch"
-        apt-ftparchive -a "$arch" contents "$pool_dir" > "${dist_dir}/Contents-${arch}"
+        apt-ftparchive -a "$arch" contents -- "$pool_dir" > "${dist_dir}/Contents-${arch}"
       done
 
       # Compress indexes
@@ -45,7 +45,7 @@ function main() {
         -o "APT::FTPArchive::Release::Codename=${distribution}" \
         -o "APT::FTPArchive::Release::Components=${components[*]}" \
         -o "APT::FTPArchive::Release::Architectures=${archs[*]}" \
-        release "dists/${distribution}" > "$release_file"
+        release -- "dists/${distribution}" > "$release_file"
 
       # Sign Release file + Generate InRelease
       gpg -sba --default-key "$signing_key" < "$release_file" > "${release_file}.gpg"
@@ -54,5 +54,4 @@ function main() {
   done
 }
 
-main "$@"
-exit "$?"
+eval 'main "$@";exit "$?"'

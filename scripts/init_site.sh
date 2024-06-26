@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -Eeuo pipefail
 shopt -s inherit_errexit
 
 function main() {
   local site_dir origin
-  site_dir="$(realpath -m "$(dirname "$(realpath -m "$0")")/../site")"
+  site_dir="$(realpath -m -- "$(dirname -- "$(realpath -m -- "$0")")/../site")"
   origin="$(git remote get-url origin)"
 
   mkdir -p -- "$site_dir"
@@ -17,5 +17,4 @@ function main() {
   git -C "$site_dir" branch --set-upstream-to=origin/site site
 }
 
-main "$@"
-exit "$?"
+eval 'main "$@";exit "$?"'
