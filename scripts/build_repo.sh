@@ -45,7 +45,8 @@ function main() {
         -o "APT::FTPArchive::Release::Codename=${distribution}" \
         -o "APT::FTPArchive::Release::Components=${components[*]}" \
         -o "APT::FTPArchive::Release::Architectures=${archs[*]}" \
-        release -- "dists/${distribution}" > "$release_file"
+        release -- "dists/${distribution}" \
+        | sed '/^Architectures: /a No-Support-for-Architecture-all: Packages' > "$release_file"
 
       # Sign Release file + Generate InRelease
       gpg -sba --default-key "$signing_key" < "$release_file" > "${release_file}.gpg"
