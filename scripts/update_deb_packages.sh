@@ -17,7 +17,6 @@ function main() {
 
   # Update the packages
   download_nathan818_packages
-  download_latest_gh_release bruno usebruno/bruno
   download_latest_gh_release dive wagoodman/dive
   download_latest_gh_release gh cli/cli
   download_latest_gh_release glow charmbracelet/glow
