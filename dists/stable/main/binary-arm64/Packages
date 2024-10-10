@@ -15,6 +15,22 @@ SHA512: 22a2e8ecc246c2af88edb0033e1f2acf372309a2d28c68441cea8f43ff43a7002afa6912
 Homepage: https://nektosact.com/
 Description: CLI tool to run GitHub Actions locally
 
+Package: adw-gtk3
+Architecture: all
+Version: 5.4
+Priority: optional
+Section: misc
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 2006
+Filename: pool/stable/main/adw-gtk3_5.4_all.deb
+Size: 101420
+MD5sum: eef01402f73d99dac62330ce9108bfc4
+SHA1: 8a2d9be6ded2e3175e4d3b93ce60e910db8f9a4c
+SHA256: 8e80959893bf542d07ff853de954f9d37b08a8f57ab5b143390fc03843e2b12a
+SHA512: f4f6c6262b1a9c12294cc283fe9e459f23da5b908d057033780e1128e22ca5d2b518b3ac4385ef21675f453ef665211d8fa6b3714daba25b7d45bcee482bc274
+Homepage: https://github.com/lassekongo83/adw-gtk3
+Description: The theme from libadwaita ported to GTK-3
+
 Package: albert
 Architecture: arm64
 Version: 0.26.4-0+649.1
