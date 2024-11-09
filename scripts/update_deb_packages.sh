@@ -23,6 +23,7 @@ function main() {
   download_latest_gh_release mmdbinspect maxmind/mmdbinspect
   download_latest_gh_release rclone rclone/rclone dash
   download_latest_gh_release sops mozilla/sops
+  download_latest_gh_release task go-task/task
   download_latest_gh_release yaru818-theme nathan818fr/yaru818
   download_from_apt onedrive https://download.opensuse.org/repositories/home:/npreining:/debian-ubuntu-onedrive/Debian_12 Packages
   download_from_apt ngrok https://ngrok-agent.s3.amazonaws.com dists/bullseye/main/binary-{amd64,arm64}/Packages
