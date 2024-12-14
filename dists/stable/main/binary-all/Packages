@@ -137,21 +137,21 @@ Description: Add easy ways to launch programms on dGPU on optimus devices
 
 Package: tuxedo-drivers
 Architecture: all
-Version: 4.11.4
+Version: 4.11.7
 Priority: optional
 Section: devel
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
-Installed-Size: 463
+Installed-Size: 466
 Provides: tuxedo-keyboard (= 4.0.0)
 Depends: dkms (>= 2.1.0.0)
 Breaks: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
 Replaces: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
-Filename: pool/stable/main/tuxedo-drivers_4.11.4_all.deb
-Size: 65470
-MD5sum: 4f1a56ef52e24db3a7cfbca11b5d7875
-SHA1: 8d5f8a75ecd22e17d99bc089932e99946a6803b4
-SHA256: eaab43b1cd7275d41f8c0220614322517f70868dfeef610b5e58f8e46f790efe
-SHA512: 9ae3ec870ae15d0b0809d5e85637423135b6ce61f12423642b7531c57d22cff56fa05a04044c39c68abae799617a5fed505dfb9aaed5801025eb6d26f99e02bb
+Filename: pool/stable/main/tuxedo-drivers_4.11.7_all.deb
+Size: 65886
+MD5sum: 495e1b7b3bfbf070b660e530eef7af3a
+SHA1: 4cf6e9636f0713fcee380927e676186eb0b8dff5
+SHA256: fd35d71fab7a938d2abaecfc832882122d77c05e8af57516d45d140a6130860a
+SHA512: 2f9aadc72795d868eabc9759cb38271f8208806488882d10caec8ceeede6948c40b1792493b9a2a7efeb1eaa09a37fc6b078325332cf2bab36e173e915db180f
 Homepage: https://tuxedocomputers.com
 Description: Kernel modules for TUXEDO devices
  Drivers for several platform devices for TUXEDO notebooks meant for DKMS.
