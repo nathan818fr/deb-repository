@@ -247,17 +247,17 @@ Description: Adwaita Fonts Collection
 
 Package: gh
 Architecture: arm64
-Version: 2.74.2
+Version: 2.75.1
 Priority: optional
 Maintainer: GitHub
-Installed-Size: 35845
+Installed-Size: 35973
 Depends: git
-Filename: pool/stable/main/gh_2.74.2_arm64.deb
-Size: 13245042
-MD5sum: cda307ae589581015d78cc457225ef61
-SHA1: 7230d1926e8fdca523b00341cd49dc5d16a757b1
-SHA256: 8a2b5a305c55cc47bdc6dd50428169326072a28f0b69135b64e31ae89c9aef36
-SHA512: 5934a9582b0d03c559f333d3f62b66bec02c336a87dc7c9f92d8ee19f9562e7b7dc4a6d60f1a37e8a171a7c4c0d540dde24f070b72299f2b4762e87f6eb217fc
+Filename: pool/stable/main/gh_2.75.1_arm64.deb
+Size: 13343930
+MD5sum: f588402c93efa4ba84de39a2241585c9
+SHA1: 0ffa50af5478f4edfe807de4dbc25f2e768b99e2
+SHA256: 5ffcdd62646c4cfee913597becc83b4a7ec9fcb224136bee7031cc251cc71403
+SHA512: 232d86c69d27a1985b9c4b5722544cfa3d804f402af2a838a493addc321a82f87039fd94bb7d59361ef34c8ad7a5940c89a6a5b51f3441d1250198459c77b81b
 Homepage: https://github.com/cli/cli
 Description: GitHub’s official command line tool.
 
@@ -365,18 +365,18 @@ Description: A multithreaded PNG optimizer written in Rust
 
 Package: rclone
 Architecture: arm64
-Version: 1.70.2
+Version: 1.70.3
 Priority: extra
 Section: default
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 70349
+Installed-Size: 70353
 Provides: rclone
-Filename: pool/stable/main/rclone_1.70.2_arm64.deb
-Size: 23518076
-MD5sum: 6e5909f372ee4d463a4380e829b179c2
-SHA1: 1771f683706a4d3c2b9b0372800f7af95d0d2e3b
-SHA256: b347832d33177abd8ac1684e11d5d6e3f0d2f9100ef3da21db10c6931167d174
-SHA512: ad6a49b646d33910f11d68450e91f1d0f504667cd3503f03532006fc953cbbaffad0cf4c286bd7c802b04aa3c03cb5bda4665e85d3cdf1ad7e9f131bdd2690d9
+Filename: pool/stable/main/rclone_1.70.3_arm64.deb
+Size: 23522106
+MD5sum: 3cb12b375da667671aa17859fbf0631d
+SHA1: 4e60721c8d614958b9fe4afa112755a6b075ab97
+SHA256: 5e0789db6181ed55dbbecd2da4c8d0930d165931015bde04aaec2d864abfba62
+SHA512: 296d57ef35572b13a9a150a40c0e2cc2ac0a6fe013a756401626684af2d7c8ce52cd0ef88f025f8995edb0cf52454bc3f7c08541774dafc6a45d45514f214a8a
 Homepage: https://rclone.org
 Description: Rclone - "rsync for cloud storage"
  is a command-line program to sync files and directories to and
@@ -422,17 +422,17 @@ Description: Simple and flexible tool for managing secrets
 
 Package: step-cli
 Architecture: arm64
-Version: 0.28.6-1
+Version: 0.28.7-1
 Priority: optional
 Section: utils
 Maintainer: Smallstep <techadmin@smallstep.com>
-Installed-Size: 39023
-Filename: pool/stable/main/step-cli_0.28.6_arm64.deb
-Size: 12893304
-MD5sum: d774edd1d1234bde4fbfeebef364c248
-SHA1: 41870f642dae20a048d1c95db008a79c0de094fc
-SHA256: 0452dd4ecf0201c4eed9b1207ad537a60504347586a2eff73ea631cdcab6a89d
-SHA512: 06855fba6c145c0a92cea622c26ac4efa6904c2dbcdc9015edf6cb4c0c9c4543cfab932210c0db7be9a5e9ff5a9d34542d224676303c3951d2bda78f98f90bdb
+Installed-Size: 39593
+Filename: pool/stable/main/step-cli_0.28.7_arm64.deb
+Size: 13043924
+MD5sum: c0118b70a4612095abee64447db7acb9
+SHA1: d89aeda986c88e8e4e26f280dccc43bf8049db4f
+SHA256: 2cc3031005672e3c83c7cf9b21ca32931d1a0ad6cbd15bc55c64994de44265f5
+SHA512: a0591fd2dc3a71f41d7831d6a7ad44d53d3f8c79c0364d3576f336511873b8c11960d6d591beafd6715ee36d54241f911fef32caf8b0dea825d4a1ed973cfe0f
 Homepage: https://github.com/smallstep/cli
 Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
  It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).

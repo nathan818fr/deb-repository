@@ -264,17 +264,17 @@ Description: Adwaita Fonts Collection
 
 Package: gh
 Architecture: amd64
-Version: 2.74.2
+Version: 2.75.1
 Priority: optional
 Maintainer: GitHub
-Installed-Size: 37749
+Installed-Size: 37949
 Depends: git
-Filename: pool/stable/main/gh_2.74.2_amd64.deb
-Size: 14419480
-MD5sum: 386932adfe4d3741780d0a032a6d9b90
-SHA1: 63cbdfa9019ea0626d40410f70853298e78b0e68
-SHA256: 9a4310c768bf2986e29dfaec6cd97f84622f9c4138f5a5f836afba1f0fd95a72
-SHA512: b8d347ddf46d02f159bc22039ac2b3962b3d315c9be2521a530e67eb35cb467cab5e992d3a891a43ffafc71872a15d9f8c3e9f01e9af069fe379fcbaacbfd4d6
+Filename: pool/stable/main/gh_2.75.1_amd64.deb
+Size: 14499678
+MD5sum: 363a9ae5a7e96731081154a7c73d9fdb
+SHA1: 27f9b121269478e658ac0aa424dfa5285b1ed9e7
+SHA256: 15be287f28754d5b09f0917ffa7133c8e40012337a97b2ef1097f3e31a4967fa
+SHA512: af6611878d63a6e1aa624369cca9dbda98c1669b534cb4762c205ad476848834cba30f7f7812f528b3c033a5c299dce7782b0256a96f5f9cb1df80e085ee53e1
 Homepage: https://github.com/cli/cli
 Description: GitHub’s official command line tool.
 
@@ -433,18 +433,18 @@ Description: Generate podman quadlet files from a podman command, compose file, 
 
 Package: rclone
 Architecture: amd64
-Version: 1.70.2
+Version: 1.70.3
 Priority: extra
 Section: default
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 74337
+Installed-Size: 74349
 Provides: rclone
-Filename: pool/stable/main/rclone_1.70.2_amd64.deb
-Size: 25353148
-MD5sum: 21143ca6dab26438bc41231ed79309b0
-SHA1: 01daddb097ad6bbc013328b20c9c6fcb19f1a4fb
-SHA256: d6f73c1cce57dba9793345071ca6950f247116d89c5acc331a46069e76835058
-SHA512: 13979707059fe425cb06125c29776f0921d1ac562f8e61a9d5144821e5f28354d3274c27ce2627a9e8d0e2ea0aefffc4db23c0c90d9d88faafb7828664d5eb24
+Filename: pool/stable/main/rclone_1.70.3_amd64.deb
+Size: 25356608
+MD5sum: 6ad476cd63a78180338b9ad57c3fa841
+SHA1: a9b398b13a3e27d196c8d346c5861d61a41b1d4b
+SHA256: 9a77ef42c25162de53354f179d76418a7150caea331617a59a6ebecd29a36845
+SHA512: bb8b3c209bab0e65e3eba5e0574c3b67a0d74345f015e4612bec67b5122d46c0b6710be6ad0bb71467da03be9ad5f4c485e20d7e887c7ea0c7e5d0c335440e77
 Homepage: https://rclone.org
 Description: Rclone - "rsync for cloud storage"
  is a command-line program to sync files and directories to and
@@ -490,17 +490,17 @@ Description: Simple and flexible tool for managing secrets
 
 Package: step-cli
 Architecture: amd64
-Version: 0.28.6-1
+Version: 0.28.7-1
 Priority: optional
 Section: utils
 Maintainer: Smallstep <techadmin@smallstep.com>
-Installed-Size: 40792
-Filename: pool/stable/main/step-cli_0.28.6_amd64.deb
-Size: 13930698
-MD5sum: 8ea44a0bdf5db175f0c2d1a446d59aa5
-SHA1: 8fe0b697c4ece109aee2caf66cfa29739f65bdad
-SHA256: cd959d8492b2a9b80c4c9f0bea7e536713a3026681d116ea4adbf592e349d1b8
-SHA512: 3c2759a0b379e1197c722b4d6f43c0968cc015c7b5d5aa701cbea3c231515570c4da92ebf926f756f846e7d8c9b7b072a81b085905661122f45a8998c69187c9
+Installed-Size: 41274
+Filename: pool/stable/main/step-cli_0.28.7_amd64.deb
+Size: 14093500
+MD5sum: 0dc070212c9bc0a7ce08ba934cda261c
+SHA1: ef346adf5a79e59e892d76a41c14cfd4700acaea
+SHA256: 366c5546be4c82040372f07f9c358dc402209e8f778e286bbb2a127df7879e8a
+SHA512: 92f7a27625528aaa909b9e6e8bad912defe8fc7b46cee895e21c8e4121d8b0a7e7bf8a2e7008740a68adcc6635c4900d2345344e173318706e4ba3f4887b011c
 Homepage: https://github.com/smallstep/cli
 Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
  It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
@@ -541,7 +541,7 @@ Description: CLI tool for sharing terminal over the web
 
 Package: tuxedo-control-center
 Architecture: amd64
-Version: 2.1.16-8
+Version: 2.1.17-9
 Priority: extra
 Section: default
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
@@ -549,12 +549,12 @@ Installed-Size: 386820
 Depends: tuxedo-drivers (>= 4.0.0) | tuxedo-keyboard (>= 3.1.2), libayatana-appindicator3-1
 Conflicts: tuxedofancontrol
 Replaces: tuxedofancontrol
-Filename: pool/stable/main/tuxedo-control-center_2.1.16-8_amd64.deb
-Size: 81689156
-MD5sum: 4910a4843557a0ac7011a0a3907c4ae9
-SHA1: fe48611c981e6fa626b64a057c1266c8524816f7
-SHA256: ed330f4b7e17b1f2017fe9a9d0cf82e4df3aecb10ef35f394061060dba120e6c
-SHA512: e7121ec25d789e16d212f0d2899287b7b427080d13a101a798e56fc94c006b83dcf01ef008a5ffcd07025761cd48885b8a2a383a406ee825cbcaf7b0d8d6ae1c
+Filename: pool/stable/main/tuxedo-control-center_2.1.17-9_amd64.deb
+Size: 82484222
+MD5sum: 6f9240a7f4831a8d2f838692ef2be9fb
+SHA1: 9a19d7d36e983daa47e50d63584511f1a58249e2
+SHA256: ac474ab7a1519740fa2e3d203bb2386393845122440727c008cb86416dc8f1e8
+SHA512: 1090ccc1e4bde1ff274a5eb2bbbf7cbf35da79a6c1c77bc9e1802c75d567e9df8e0b5af32b682694ac58b990c836a8e284bd21443414626c9eae75bcf3407221
 Homepage: https://tuxedocomputers.com
 Description: 
   TUXEDO Control Center Application
