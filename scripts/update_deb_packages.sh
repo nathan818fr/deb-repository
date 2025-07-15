@@ -29,7 +29,6 @@ function main() {
   download_from_apt onedrive https://download.opensuse.org/repositories/home:/npreining:/debian-ubuntu-onedrive/Debian_12 Packages
   download_from_apt ngrok https://ngrok-agent.s3.amazonaws.com dists/bullseye/main/binary-{amd64,arm64}/Packages
   download_from_apt tuxedo-drivers,tuxedo-keyboard,tuxedo-control-center,tuxedo-dgpu-run https://deb.tuxedocomputers.com/ubuntu dists/jammy/main/binary-amd64/Packages
-  download_from_apt protonvpn-cli,python3-proton-client,python3-protonvpn-nm-lib https://repo.protonvpn.com/debian dists/stable/main/binary-all/Packages
   download_from_apt albert http://download.opensuse.org/repositories/home:/manuelschneid3r/Debian_12 Packages
 }
 
