@@ -247,17 +247,17 @@ Description: Adwaita Fonts Collection
 
 Package: gh
 Architecture: arm64
-Version: 2.75.1
+Version: 2.76.0
 Priority: optional
 Maintainer: GitHub
 Installed-Size: 35973
 Depends: git
-Filename: pool/stable/main/gh_2.75.1_arm64.deb
-Size: 13343930
-MD5sum: f588402c93efa4ba84de39a2241585c9
-SHA1: 0ffa50af5478f4edfe807de4dbc25f2e768b99e2
-SHA256: 5ffcdd62646c4cfee913597becc83b4a7ec9fcb224136bee7031cc251cc71403
-SHA512: 232d86c69d27a1985b9c4b5722544cfa3d804f402af2a838a493addc321a82f87039fd94bb7d59361ef34c8ad7a5940c89a6a5b51f3441d1250198459c77b81b
+Filename: pool/stable/main/gh_2.76.0_arm64.deb
+Size: 13319190
+MD5sum: 8b26a4b139d5d2c631e0f971d7f626bf
+SHA1: 6af340e6f175b116330952c1cd7e8d0111edf64b
+SHA256: 480663f4cf87049f371df807e0431d29eccdbbe564ca063beadfff4252cb4ee6
+SHA512: d84d88953562c8720d17881a0b6d5213442247d417082540a56edae0f3995874c6db00809f51f1724b248241ab5f1e3302f4c4f2323e4163c95b6b48c185c59b
 Homepage: https://github.com/cli/cli
 Description: GitHub’s official command line tool.
 
@@ -313,17 +313,17 @@ License: Apache 2.0 or MIT
 
 Package: ngrok
 Architecture: arm64
-Version: 3.23.3
+Version: 3.24.0
 Priority: optional
 Section: network
 Source: ngrok
 Maintainer: ngrok <release-bot@ngrok.com>
-Filename: pool/stable/main/ngrok_3.23.3_arm64.deb
-Size: 5788960
-MD5sum: 4378aebaeeb22954181977dfe518f580
-SHA1: 82a151a8967fb77e8a65e32d50ca6e234e86a1bd
-SHA256: ee7487d8ee876f384c3fd37dba5a782deda8d41b9683170d3337c72bd4294878
-SHA512: e1007dd4979b15d03fdb4d55ca14a02581c891172882c794f4aa7206d87562912a14767746049ee78abd4d307cfb12d04c93f49deff60e32b8a98b4a5ab91318
+Filename: pool/stable/main/ngrok_3.24.0_arm64.deb
+Size: 5791936
+MD5sum: 49650d311a4f62cfb15d08ccc2ba3812
+SHA1: b18f855e9c5f0244de3a32ac184f6f5fccafe373
+SHA256: d2e00db886ffc5ba581e7f24e34071a89b9d5ee0318ff915568921e69a0184d5
+SHA512: debf9dd22955b0a92009b6ce76702dc814c79e2a751568ab92aedf978a9e8d698f93074e464717c06dd735570155b2e39b8b64d7f2e178f39e3a47e7b914a3fe
 Homepage: https://ngrok.com
 Description: ngrok secure tunnel agent
 

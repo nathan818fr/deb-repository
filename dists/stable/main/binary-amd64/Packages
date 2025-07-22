@@ -264,17 +264,17 @@ Description: Adwaita Fonts Collection
 
 Package: gh
 Architecture: amd64
-Version: 2.75.1
+Version: 2.76.0
 Priority: optional
 Maintainer: GitHub
-Installed-Size: 37949
+Installed-Size: 37945
 Depends: git
-Filename: pool/stable/main/gh_2.75.1_amd64.deb
-Size: 14499678
-MD5sum: 363a9ae5a7e96731081154a7c73d9fdb
-SHA1: 27f9b121269478e658ac0aa424dfa5285b1ed9e7
-SHA256: 15be287f28754d5b09f0917ffa7133c8e40012337a97b2ef1097f3e31a4967fa
-SHA512: af6611878d63a6e1aa624369cca9dbda98c1669b534cb4762c205ad476848834cba30f7f7812f528b3c033a5c299dce7782b0256a96f5f9cb1df80e085ee53e1
+Filename: pool/stable/main/gh_2.76.0_amd64.deb
+Size: 14522642
+MD5sum: a5e2ab40e441888c4ca57ae2f49d69bc
+SHA1: b6f0faa15a15242d8837a6d582f4db8c1793b840
+SHA256: f7452be4c8de915c21354fa9482f4740969ec29548f976ca30e57e9b9d3cf656
+SHA512: c5f9a209026606e2f2815c579b2647f8eab8f32ae95d119259bd7b0e23131dc80a8b57e299763fe8b84a35029401e423e8b87e7668041ab4e12f2c0d72a7f5e3
 Homepage: https://github.com/cli/cli
 Description: GitHub’s official command line tool.
 
@@ -349,17 +349,17 @@ License: Apache 2.0 or MIT
 
 Package: ngrok
 Architecture: amd64
-Version: 3.23.3
+Version: 3.24.0
 Priority: optional
 Section: network
 Source: ngrok
 Maintainer: ngrok <release-bot@ngrok.com>
-Filename: pool/stable/main/ngrok_3.23.3_amd64.deb
-Size: 6663772
-MD5sum: 9b0862a281c2269164dd3c945f305196
-SHA1: cabbd42c209f7ddaea39d4cbddbaa320870b8134
-SHA256: 4295b6a01ad2a073bfabf2432057ba945620c035864bf35ddd15c1c01bc78003
-SHA512: 9f15ef7edd3d627c4f98d13c79464541e45c1a842551d2b8249f794708d3c4a6668ec54e1bed6d6ad7428c27e0739da637fdfe06772e5635ba81a93b1fae73c3
+Filename: pool/stable/main/ngrok_3.24.0_amd64.deb
+Size: 6665244
+MD5sum: 2c002b54837b77047b12e56966076e7e
+SHA1: 7e286b356c51ac9e5c728056dbef97956733bb2e
+SHA256: f09e8d63414ef4cf9b25abbdcc5581f59c0c147e8db084763278f2807b3adbb4
+SHA512: ea7f496c6f69772b0777f92fe5c378957ce0f5004f2bcb063637ed24b8f98c3b229406182249344c4f1ddcfc5e8ee07e2240d182d1e4b8c788adbf8dfe4ba3ce
 Homepage: https://ngrok.com
 Description: ngrok secure tunnel agent
 
