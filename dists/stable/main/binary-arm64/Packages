@@ -1,0 +1,564 @@
+Package: act
+Architecture: arm64
+Version: 0.2.80
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 19200
+Conflicts: artemis
+Filename: pool/stable/main/act_0.2.80_arm64.deb
+Size: 5124824
+MD5sum: c3685875c6af59481748c8ca9fbe1d63
+SHA1: 517db7bced6615ae24d87d38040897303a7e4d1b
+SHA256: fa8905778472a4b247a20fa30d526a7ae2f0c552ff1cef6dd8d9fbe93df15055
+SHA512: b2b440ed1016cd7454a7aaf6a044dd3b1825a50ee59a5feb0a789ee063b75623c0fdb8d9e7fd0d1147b9f1671d2d3b94977395f30bbc098ee41c56e94c3427ee
+Homepage: https://nektosact.com/
+Description: CLI tool to run GitHub Actions locally
+
+Package: adw-gtk3
+Architecture: all
+Version: 6.2
+Priority: optional
+Section: misc
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 2022
+Filename: pool/stable/main/adw-gtk3_6.2_all.deb
+Size: 120140
+MD5sum: 9c50533154b0700f395d89594e9a584d
+SHA1: 30da1b8c61a170aaa5f9ec28fe2becf83e4e87b7
+SHA256: 020c0e390a81f8703bdb8dd1d90afa4ab2eb2ab40ebb9f7384aa7cca14ec2ed9
+SHA512: 5378eee1e1574718cc1513a99f94dcd882a9113b8825b5c3038ebc0db4690f7dad7f31e62486733c829b4f80c1bf0a23aa7578aa76e197b246e8ef4821d6c0c9
+Homepage: https://github.com/lassekongo83/adw-gtk3
+Description: The theme from libadwaita ported to GTK-3
+
+Package: age
+Architecture: arm64
+Version: 1.2.1
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 8273
+Filename: pool/stable/main/age_1.2.1_arm64.deb
+Size: 3753220
+MD5sum: 87f545b89ad218f76df6c45f77fba549
+SHA1: 2452e3798e549bbca752b6f2c080e5a590bd7896
+SHA256: 259595c868cf0a4dc763b0275f95769914aacd4d8a2afa0c2adad3875a05bd31
+SHA512: 241ff109d8cba01d54b5a046eef413f605db35234f8c128bd2ab54349d469394871aa701991c44c8d3e58ca4ab2afe424092592a51e132dce6d59b817f335aaa
+Homepage: https://github.com/FiloSottile/age
+Description: simple, modern and secure encryption tool
+ age features small explicit keys, no config options, and UNIX-style
+ composability.
+
+Package: albert
+Architecture: arm64
+Version: 0.27.8-0+701.2
+Priority: optional
+Section: utils
+Maintainer: Manuel Schneider <manuelschneid3r@gmail.com>
+Installed-Size: 5591
+Depends: libarchive13 (>= 3.0.4), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libpython3.11 (>= 3.11.0), libqalculate22 (>= 4.5.1), libqt6concurrent6 (>= 6.1.2), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6statemachine6 (>= 6.2.1), libqt6svg6 (>= 6.2.0), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 11), libx11-6, libqt6sql6-sqlite, python3-pip, python3-venv, qt6-qpa-plugins, qt6-wayland
+Filename: pool/stable/main/albert_0.27.8-0+701.2_arm64.deb
+Size: 1212608
+MD5sum: 86e05ba61b18ae69e788a06847839449
+SHA1: 9395196711b95bd36fa4ad740a60c074d538c206
+SHA256: a01e457734ad5b229fc47e7b418adce9e0b1ca4aa8be42b912e451a75b6c9223
+SHA512: b1b2ae27c2c94759d2e2de94c1076656497678efc32a680d0876bcc547de6737b7a9d7e8540e558a5fd2e01f2da95f55010751e9816b182324d6cc8df1650461
+Homepage: https://albertlauncher.github.io/
+Description: Plugin-based C++/Qt keyboard launcher
+ Albert is a desktop agnostic keyboard launcher that helps you to accomplish your workflows in a breeze.
+
+Package: appimagetool
+Architecture: arm64
+Version: 13
+Priority: optional
+Section: devel
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 617
+Filename: pool/stable/main/appimagetool_13_arm64.deb
+Size: 490840
+MD5sum: c56ee955e7632fc38d277e0fde91d90c
+SHA1: 74d8e3b369fa3efec68b7a0acac2fb6bf00c507c
+SHA256: 6aaf7861a023aa429013394df1b84e66e74ca494a50b907d6deb659dbabed4cb
+SHA512: 1ac8d483c87db814dfd3887b492ddcdac895202da449c5ce36dc04544aca3b001403ae405b5b65e937b090fd436c694a95568147c8c75eb1a5804da3d46210a4
+Homepage: https://github.com/AppImage/AppImageKit
+Description: CLI tool to package desktop applications as AppImages
+
+Package: aws-vault
+Architecture: arm64
+Version: 7.2.0-1
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 13599
+Filename: pool/stable/main/aws-vault_7.2.0-1_arm64.deb
+Size: 6136900
+MD5sum: 1ade32ab0187c10ab18bd0fb388d617c
+SHA1: 2223211b3706f5c2bc5adad74ad6fe45765a9600
+SHA256: b9cee139abe22335c2e1a67ef67fca3f1cff12d40ace9e408f9023497cdd0607
+SHA512: a928900c8a50ed0527426b7089fcbe32c6ce48e4c5adaa7a31e2899f421fdd574d66c5d5a7d091acf1944225bfea265a74e48dc76a6c8140569234179e3d022b
+Homepage: https://github.com/99designs/aws-vault
+Description: A vault for securely storing and accessing AWS credentials in development environments
+
+Package: buildpacks-pack
+Architecture: arm64
+Version: 0.38.2
+Priority: optional
+Section: devel
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 27468
+Conflicts: liballegro4-dev
+Filename: pool/stable/main/buildpacks-pack_0.38.2_arm64.deb
+Size: 6572444
+MD5sum: 6e3158f77480db79692855dcb7ac45a4
+SHA1: 12fc28ae04c2c1d86ceeb7a534e4bda78d9e088b
+SHA256: 63cc0bbd91718e7222e682fc5addf96709c83ecabf515cb879d9532c02f46e28
+SHA512: 7c81e5c7f2b31507932b491586200222bc23ffb8b8e90dae7360b44e5d08339f1225eb0e376d2cdfc2a4b6bb296dff60811716156971929066ae940883a0d36b
+Homepage: https://github.com/buildpacks/pack
+Description: CLI tool for building apps using Cloud Native Buildpacks
+
+Package: cidr-merger
+Architecture: arm64
+Version: 1.1.3
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 1536
+Filename: pool/stable/main/cidr-merger_1.1.3_arm64.deb
+Size: 447248
+MD5sum: 06e232fc07b5d315598e15df1557b671
+SHA1: a68a0c20b9eb009c719732f3eacbc6c1df3649a8
+SHA256: ec0a7341017b394a830e7eae3d081a810728c90e59ca6f94bd9ec5e8add939fb
+SHA512: 07de6e20b3e45c759936f8b973945776067c77bf7f53bdd303e803209a4b2de23b5e15879784f42efeb677f8657bac842571831be6baa8027840da583ee9f84b
+Homepage: https://github.com/zhanhb/cidr-merger
+Description: CLI tool to merge ip/ip cidr/ip range
+
+Package: dive
+Architecture: arm64
+Version: 0.13.1
+Priority: optional
+Maintainer: Alex Goodman
+Installed-Size: 9024
+Filename: pool/stable/main/dive_0.13.1_arm64.deb
+Size: 3710448
+MD5sum: 647701cab04a4001f8cf1bec7e3a87da
+SHA1: 6331dcd309c549ff4abbfffffb63c35768b24825
+SHA256: 80203401b3d7c4feffd13575755a07834a2d2f35f49e8612f0749b318c3f2fa5
+SHA512: 0697941c9187e2461ef9e0e9553e516d0643453c17d7c88cff61aa99b9fe81fea8a796bce15344a9ea9a4688a75df04bc67881a8c400072290c92c8bb366923d
+Homepage: https://github.com/wagoodman/dive/
+Description: A tool for exploring layers in a docker image
+License: MIT
+
+Package: docker-credential-helpers
+Architecture: arm64
+Version: 0.9.3
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 3853
+Provides: golang-docker-credential-helpers
+Depends: libsecret-1-0
+Suggests: pass
+Conflicts: golang-docker-credential-helpers
+Replaces: golang-docker-credential-helpers
+Filename: pool/stable/main/docker-credential-helpers_0.9.3_arm64.deb
+Size: 828908
+MD5sum: 73d21d289f6ed22fd7a4789ad78b12af
+SHA1: 897a8227712a56174812412f055fc3e91e5b10b1
+SHA256: ed021811e180cc263c3f785824537b821dfac6aa31d4c5e14f59c32db37dd2f4
+SHA512: bcedcc2ffbc9af15902ea5019e6ea7bac1c9ac91fb4e7599a5874dcdd615ac5d72e2ca339633229635aa123e9483eb75c86533f6cb00f3b9631fe92347e568da
+Homepage: https://github.com/docker/docker-credential-helpers
+Description: A credential helper backend which uses libsecret to keep Docker credentials safe
+
+Package: flowy
+Architecture: arm64
+Version: 0.5.0-rc1
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 8658
+Filename: pool/stable/main/flowy_0.5.0-rc1_arm64.deb
+Size: 2079920
+MD5sum: 8841abf145f4d5f5a386c3b4bf43650c
+SHA1: 470328e8c34dc5063ec9d19f78cfb19ff19c0961
+SHA256: cd2ed525d14589cbafaad4ff82fcb40d0daac212e62fb60b74dd889d6f7a2503
+SHA512: efdc09d87099ddea97b9819917d13b2af31092be295815275271bd082f17ca9431aea532d911eb61ce0ff3efb2325a84bad2cf0a658849ba8b7e1dc31b70847a
+Homepage: https://github.com/nathan818fr/flowy
+Description: A dynamic wallpaper changer
+
+Package: fonts-adwaita-mono
+Architecture: all
+Version: 48.2-1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: fonts-adwaita
+Maintainer: Kirill Rekhov <krekhov.dev@gmail.com>
+Installed-Size: 5561
+Filename: pool/stable/main/fonts-adwaita-mono_48.2-1_all.deb
+Size: 1289996
+MD5sum: 5d220b423cc6cb46ff485cff1a3a79a1
+SHA1: 222d20a9263ec503d76e1fad68eafd7a2b77d26b
+SHA256: 283396320b068f705f0e40fcfbbda7d9775796961b721373ea5eb875be485e09
+SHA512: fe3b82eaa2e035e4bf4fa6d2ffb37968123f8e195322669b3169d30a060e6043538ea72d7bdb48aed8807d492b369c944381b3666b14034cc351a5f03deff260
+Homepage: https://gitlab.gnome.org/GNOME/adwaita-fonts
+Description: Adwaita Mono Fonts
+ This package contains the Adwaita Mono fonts, providing a monospaced font
+ family.
+
+Package: fonts-adwaita-sans
+Architecture: all
+Version: 48.2-1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: fonts-adwaita
+Maintainer: Kirill Rekhov <krekhov.dev@gmail.com>
+Installed-Size: 1762
+Filename: pool/stable/main/fonts-adwaita-sans_48.2-1_all.deb
+Size: 676888
+MD5sum: f5fb5ee83d11c9bc3070b4d6402c1408
+SHA1: 1ef8e3ce7ec8e6f3fbe46c70598b58dcc537b14c
+SHA256: 92f224ef97d415d1c699ce6edd58f4c08fd7eccff471697ebf224728f66a1aa1
+SHA512: 39cf0f76f37607f25e2e92df9417007c8ae372f68580a9fd5f8c40a6dfb4aa8e1f1ba43d863d5632935ac8055207d6f3f927e383656b4656dfd7f83d15dd05f6
+Homepage: https://gitlab.gnome.org/GNOME/adwaita-fonts
+Description: Adwaita Sans Fonts
+ This package contains the Adwaita Sans fonts, providing a sans-serif font
+ family.
+
+Package: fonts-adwaita
+Architecture: all
+Version: 48.2-1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Maintainer: Kirill Rekhov <krekhov.dev@gmail.com>
+Installed-Size: 137
+Depends: fonts-adwaita-mono, fonts-adwaita-sans
+Filename: pool/stable/main/fonts-adwaita_48.2-1_all.deb
+Size: 122976
+MD5sum: 88f35ca1724b23bf9e8d3c3d3d429ade
+SHA1: 05b31346536ffd75e28664bb0c590e038cc6dc64
+SHA256: be2f40d8d9060bdfbdcb3a0e1a9e7242d4a1e262a8e6a5b8ac3b4f698845c833
+SHA512: f7dff2809fee956d4b7fb7eea9ced57764a30f9983320fcf82ab8daff41d3b8f34d50937af0bcc73ba7aec43ede91f85ef806db08927e116c4f4789dd0da167e
+Homepage: https://gitlab.gnome.org/GNOME/adwaita-fonts
+Description: Adwaita Fonts Collection
+ This package is a metapackage that installs all Adwaita font families,
+ including both Mono and Sans-Serif variants.
+
+Package: gh
+Architecture: arm64
+Version: 2.76.2
+Priority: optional
+Maintainer: GitHub
+Installed-Size: 51206
+Depends: git
+Filename: pool/stable/main/gh_2.76.2_arm64.deb
+Size: 17156512
+MD5sum: f26772d3dfdf1396d55de31a2016c038
+SHA1: eba17178d12322b9fadda506dac0177bdaee749e
+SHA256: 8a4728b3619fc4b21ad74334a9642776a45afe3a473364141d31c09b0452e40d
+SHA512: 1a63bdeedbdd90838c43278c375108d337724c2497c77e988af20a13907df5b60f5e34922a3c9f1a084e3b63a09c88013a8ec7628060e26dfc02db2f6acefc38
+Homepage: https://github.com/cli/cli
+Description: GitHub’s official command line tool.
+
+Package: glow
+Architecture: arm64
+Version: 2.1.1
+Priority: optional
+Maintainer: Christian Muehlhaeuser <muesli@charm.sh>
+Installed-Size: 16353
+Filename: pool/stable/main/glow_2.1.1_arm64.deb
+Size: 5809250
+MD5sum: 1b7a13298b5283375c5fe94548557bd2
+SHA1: bbfca0af529ad0ac9656783df92be36f9da686a3
+SHA256: 51abf1f0aa8b686ef29bbebb96b758b6286c11d0e5ab38b5265ae8bf5bf9494c
+SHA512: 3d067c306921dccf550bdccae8f3f7e308783ff12030c4d9d7bf4d2356f1473b05111e361aae250dc53860e1eb79a4338228fc5b256411f3673251fa74117f86
+Homepage: https://charm.sh/
+Description: Render markdown on the CLI, with pizzazz!
+License: MIT
+
+Package: humanity-icon-theme
+Architecture: all
+Version: 0.6.16
+Priority: optional
+Section: gnome
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 20660
+Depends: adwaita-icon-theme, hicolor-icon-theme
+Filename: pool/stable/main/humanity-icon-theme_0.6.16_all.deb
+Size: 1247592
+MD5sum: d2c0c7fe48755a161379456426255588
+SHA1: debd5cc38b848a5c95a2612e7f20177de2ee475f
+SHA256: 6f544f0f887d1db37914ec89ad53403963a574994cc5242fc206d5f8949a4005
+SHA512: 017d3de230b2270c6c39f912b1e349cb19f73a58b8f159750f36818126ed7cf4321417184a57d7a2ba173b87063495b960dde1d9f116044f562b130b0b8084e0
+Description: Humanity Icon theme
+ Humanity and Humanity Dark are nice and well polished icon themes for
+ the GNOME desktop.
+
+Package: mmdbinspect
+Architecture: arm64
+Version: 2.0.0~beta.2
+Priority: optional
+Maintainer: MaxMind, Inc. <support@maxmind.com>
+Installed-Size: 3099
+Filename: pool/stable/main/mmdbinspect_2.0.0-beta.2_arm64.deb
+Size: 1250604
+MD5sum: 8c903cc8b8f39cb1e5a37a94804cd59e
+SHA1: 23cd7a27208864722c6502e5f87914f47a44e540
+SHA256: dc011eda6251ffa30d8c5164c6c027cf2ded67d28ff2ae6e8ef14534d2b5957c
+SHA512: b71040e08e87feae0e865b2e7591338acbb162250fe64cb7ff5dba1de30af4b464c8ffaec065bc7d9374727307a84643267330b8048e56f0386c94e4e7d5a30b
+Homepage: https://www.maxmind.com/
+Description: Program to look up records for one or more IPs/networks in one or more .mmdb databases.
+License: Apache 2.0 or MIT
+
+Package: ngrok
+Architecture: arm64
+Version: 3.25.1
+Priority: optional
+Section: network
+Source: ngrok
+Maintainer: ngrok <release-bot@ngrok.com>
+Filename: pool/stable/main/ngrok_3.25.1_arm64.deb
+Size: 5796156
+MD5sum: b661c171fb1cde21bff2b2775f0c5609
+SHA1: aee45d90911d876e4617c19fe239f32464e7f3bc
+SHA256: 23a33b6cc08265d3a42e374411b67a36cb0a2ad3a5dc83a056ea7732a4fe8a42
+SHA512: 317ca9daee18226baea57afb9e3754dc6fbb622ae64fb175799cb8ab7e843e0c203adc8723c2e868274b5ed5cab2634917e91c33ebad7f91cb05cbe7de41bdb8
+Homepage: https://ngrok.com
+Description: ngrok secure tunnel agent
+
+Package: onedrive
+Architecture: arm64
+Version: 2.5.6-1+np1+1.1
+Priority: optional
+Section: net
+Maintainer: Norbert Preining <norbert@preining.info>
+Installed-Size: 3800
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libnotify4 (>= 0.7.3), libphobos2-ldc-shared100 (>= 1:1.30.0), libsqlite3-0 (>= 3.7.14), init-system-helpers (>= 1.52)
+Filename: pool/stable/main/onedrive_2.5.6-1+np1+1.1_arm64.deb
+Size: 807228
+MD5sum: 5277ad87b3e3abbe5d0e89e33ac7e2f4
+SHA1: c0565ec3b48a58d8d599adca0abdd2aaa9a1dd3a
+SHA256: 4a16a163e49894d77a521422034d6e93828e1872bb52fcec9d1c7276eb140109
+SHA512: ed011a9d0599d9c035710576bbd21612d9ffd5850644d31c15a2d37d147494841113389cf7d56ffe24534d1ef1d81227ab3c017edb84b7bb34002ca3d245b260
+Homepage: https://github.com/abraunegg/onedrive
+Description: folder synchronization with OneDrive
+ OneDrive is the cloud storage system of Microsoft. This package provides
+ the command line client specialising in synchronizing with OneDrive cloud
+ storage.
+
+Package: oxipng
+Architecture: arm64
+Version: 9.1.5
+Priority: optional
+Section: graphics
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 1097
+Filename: pool/stable/main/oxipng_9.1.5_arm64.deb
+Size: 434192
+MD5sum: 580f6c5606aec3af4476fabf5b0fb556
+SHA1: 30dd08a91c3248345d64951aea3f4b7fad7472da
+SHA256: 0ddd245479dc53cc1ef5aaaf6fb403271209aabd3610a0b222017325f1aba5f6
+SHA512: 90fa60f1c46d1e72f875fa1cc5980d3a643e0705c371f0a9c7acc506702239225bd12bc8ac12fefdbbfa0b629de44494e9b3c7280e34bcf794fab967d8e82f81
+Homepage: https://github.com/shssoichiro/oxipng
+Description: A multithreaded PNG optimizer written in Rust
+
+Package: rclone
+Architecture: arm64
+Version: 1.70.3
+Priority: extra
+Section: default
+Maintainer: Nick Craig-Wood <nick@craig-wood.com>
+Installed-Size: 70353
+Provides: rclone
+Filename: pool/stable/main/rclone_1.70.3_arm64.deb
+Size: 23522106
+MD5sum: 3cb12b375da667671aa17859fbf0631d
+SHA1: 4e60721c8d614958b9fe4afa112755a6b075ab97
+SHA256: 5e0789db6181ed55dbbecd2da4c8d0930d165931015bde04aaec2d864abfba62
+SHA512: 296d57ef35572b13a9a150a40c0e2cc2ac0a6fe013a756401626684af2d7c8ce52cd0ef88f025f8995edb0cf52454bc3f7c08541774dafc6a45d45514f214a8a
+Homepage: https://rclone.org
+Description: Rclone - "rsync for cloud storage"
+ is a command-line program to sync files and directories to and
+ from most cloud providers. It can also mount, tree, ncdu and lots
+ of other useful things.
+License: MIT
+
+Package: solaar
+Architecture: all
+Version: 1.1.13+dfsg-1
+Priority: optional
+Section: misc
+Maintainer: Stephen Kitt <skitt@debian.org>
+Installed-Size: 1906
+Depends: debconf (>= 0.5) | debconf-2.0, udev, passwd | adduser, gir1.2-ayatanaappindicator3-0.1, gir1.2-gtk-3.0, gir1.2-notify-0.7, python3-dbus, python3-evdev, python3-gi, python3-psutil, python3-pyudev, python3-xlib, python3-yaml, python3:any
+Recommends: upower
+Filename: pool/stable/main/solaar_1.1.13+dfsg-1_all.deb
+Size: 352432
+MD5sum: 57bddff6c33a98a2fa028fb37b1c84f2
+SHA1: 4d224df8c2bb8b2fd59cba4c435057b15e0acb1f
+SHA256: 92f96752d5d6f5de9914d09716ae78ece6c4b69f12f5a1102415992cbb66808a
+SHA512: ee32b78128a7b7d5f3885b959571983ebcc200decadebe32f6f4881abd01e2be215fc1a5c64eb392d4360a984e7d6ca17258abc8d24c38d5217e2699c078266e
+Homepage: https://pwr-solaar.github.io/Solaar/
+Description: Logitech Unifying Receiver peripherals manager for Linux
+ Solaar is a Linux device manager for Logitech's Unifying Receiver wireless
+ peripherals. It is able to pair/unpair devices to the receiver, and for
+ some devices to read battery status.
+
+Package: sops
+Architecture: arm64
+Version: 3.10.2
+Priority: optional
+Maintainer: SOPS maintainers <cncf-SOPS-maintainers@lists.cncf.io>
+Installed-Size: 41600
+Filename: pool/stable/main/sops_3.10.2_arm64.deb
+Size: 12790466
+MD5sum: 34c8f386f4878b9000a3bd7e92a810e6
+SHA1: dc9321e9ce38f7b1a3f3fc89bd8720d953053adf
+SHA256: 9294e7aa364d37bdc037c395aee4e863e48a8b86a7076ed5e852ce69b47f0784
+SHA512: 61304e32882d52342bc6fedbf663d6a2dc490b0afde20e6a806acd0c979198f95f0d3e2973fcc88482ad8ebb9b9674fc06a31e50fcc85c993106f16fa288a073
+Homepage: https://github.com/getsops/sops
+Description: Simple and flexible tool for managing secrets
+
+Package: step-cli
+Architecture: arm64
+Version: 0.28.7-1
+Priority: optional
+Section: utils
+Maintainer: Smallstep <techadmin@smallstep.com>
+Installed-Size: 39593
+Filename: pool/stable/main/step-cli_0.28.7_arm64.deb
+Size: 13043924
+MD5sum: c0118b70a4612095abee64447db7acb9
+SHA1: d89aeda986c88e8e4e26f280dccc43bf8049db4f
+SHA256: 2cc3031005672e3c83c7cf9b21ca32931d1a0ad6cbd15bc55c64994de44265f5
+SHA512: a0591fd2dc3a71f41d7831d6a7ad44d53d3f8c79c0364d3576f336511873b8c11960d6d591beafd6715ee36d54241f911fef32caf8b0dea825d4a1ed973cfe0f
+Homepage: https://github.com/smallstep/cli
+Description: step-cli lets you build, operate, and automate Public Key Infrastructure (PKI) systems and workflows.
+ It's a swiss army knife for authenticated encryption (X.509, TLS), single sign-on (OAuth OIDC, SAML), multi-factor authentication (OATH OTP, FIDO U2F), encryption mechanisms (JSON Web Encryption, NaCl), and verifiable claims (JWT, SAML assertions).
+License: Apache 2.0
+
+Package: task
+Architecture: arm64
+Version: 3.44.1
+Priority: optional
+Section: golang
+Maintainer: The Task authors <task@taskfile.dev>
+Installed-Size: 16390
+Conflicts: taskwarrior
+Filename: pool/stable/main/task_3.44.1_arm64.deb
+Size: 6301978
+MD5sum: 4aaa0725822cecc411fe5900e82441d9
+SHA1: bc74a97614a6472ca06e706b05eebc44fbe87655
+SHA256: 4628f34927c4f3409e10f44fd3f84560005e3e0abe6755569b7bf0791947aeaf
+SHA512: 4437da1dd5beff22e94d4bdf890492fb0e70a67600dac0ca7797461a6d420f388ec4a76d0752617f551ec0c0f19f2da4113d2c1c4fed5b8d7c57ace7a56858d7
+Homepage: https://taskfile.dev
+Description: Simple task runner written in Go
+License: MIT
+
+Package: ttyd
+Architecture: arm64
+Version: 1.7.7
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 1338
+Filename: pool/stable/main/ttyd_1.7.7_arm64.deb
+Size: 642848
+MD5sum: b43b2a12afb1adaf3b17d36f45c22d33
+SHA1: fd7e3b9f6ebe3588aa48417bbd6e36c14b0af541
+SHA256: 0328c19dc7a38a8abc1482027a4da162da84e913596428b050dc8fe7d94390c5
+SHA512: 7c8c224677e207cbee6cc3647688dc4607b47a4210877b05870d35873f44e32bdc77b3cf746132ce543d98ef62250e346207179a3ebde46f7899aa0787aebb2e
+Homepage: https://tsl0922.github.io/ttyd/
+Description: CLI tool for sharing terminal over the web
+
+Package: tuxedo-dgpu-run
+Architecture: all
+Version: 1.1.1
+Priority: optional
+Section: misc
+Maintainer: Werner Sembach <tux@tuxedocomputers.com>
+Installed-Size: 33
+Filename: pool/stable/main/tuxedo-dgpu-run_1.1.1_all.deb
+Size: 5782
+MD5sum: 158b61a43e90e0ed92dd269aedeb0e1b
+SHA1: a9d7e87a49b612cd42402cd95af771624d4fa0be
+SHA256: e89c165f909954d2bd934a70b05c058c506ad5360c8d121ce822ec2047db36c4
+SHA512: 68095d4ab62ca9a24d032914684e089aaa36f58103c233603dd9fd8f192087765e84ca5788760643393b3af38b37d66ef0b97e000a31497c9ccc45f99acb9e80
+Homepage: https://tuxedocomputers.com
+Description: Add easy ways to launch programms on dGPU on optimus devices
+ This packages is intended to make it easy to use the on-demand mode on optimus
+ devices having both an iGPU and a dGPU.
+ Currently this package adds a right click menu entry "Run on dedicated GPU) to
+ desktop entries on the desktop or the start menu in KDE Plasma 5.
+
+Package: tuxedo-drivers
+Architecture: all
+Version: 4.12.2
+Priority: optional
+Section: devel
+Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
+Installed-Size: 470
+Provides: tuxedo-keyboard (= 4.0.0)
+Depends: dkms (>= 2.1.0.0)
+Breaks: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
+Replaces: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
+Filename: pool/stable/main/tuxedo-drivers_4.12.2_all.deb
+Size: 66362
+MD5sum: a5fc0fada5c95c6c36565e8a7ea2aa01
+SHA1: 2b193c761db92b39501940bd63f11c947ff8d4db
+SHA256: 30099353b399efbd677cb3a0f54a10d2694eec09e9db6665a328e269a5be1399
+SHA512: b56c4ad7d950a8b7c5285c8dedc05f77647a948918a09d9b8daf54c88f7559bf208a4e156cdc4938be1be17036816e4149152216909a39968ea23f3aeeb2bbc0
+Homepage: https://tuxedocomputers.com
+Description: Kernel modules for TUXEDO devices
+ Drivers for several platform devices for TUXEDO notebooks meant for DKMS.
+
+Package: tuxedo-keyboard
+Architecture: all
+Version: 4.4.2
+Priority: optional
+Section: oldlibs
+Source: tuxedo-drivers
+Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
+Installed-Size: 13
+Depends: tuxedo-drivers
+Filename: pool/stable/main/tuxedo-keyboard_4.4.2_all.deb
+Size: 5748
+MD5sum: fe1336a2766f9dbb40bcfe129e48d36e
+SHA1: 04a123e255f49fce4f7f3c2c3c0b3ce9970fd436
+SHA256: eeebcb54d6c97899ceb926ae3268cc897c1a7103283dda230aa967c08ff5bc6b
+SHA512: f00dde6e79e003cebc823cb8c9cc44ffde1b372052359e92334bb4dd41405e816258fc8bc1be9604ce834dc52241bcff6e0e4e3a1458a1e86d3f9cc65bf6102e
+Homepage: https://tuxedocomputers.com
+Description: Keyboard back-light driver for ITE devices (dummy transitional package)
+ Transitional package for upgrades. This package can be safely removed.
+
+Package: vhs
+Architecture: arm64
+Version: 0.10.0
+Priority: optional
+Section: utils
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Installed-Size: 22208
+Depends: ffmpeg, ttyd
+Filename: pool/stable/main/vhs_0.10.0_arm64.deb
+Size: 6602264
+MD5sum: a1597ed24cfbc51b515d80ef857479e3
+SHA1: df11542655467f79a8228a0aa52b115e649e86d0
+SHA256: 10dfedbcb8de59b084168473307c14755128101aab37f5e68e193c0b093723b6
+SHA512: 2c25df3ac727d12b7c4694c0c68d9f1362aedc81ed56060935d678bf326fb0a82fb75f8231e1f713f8a7e92b13c7a640b1ee22415cd61d160c4980a1bdddf25f
+Homepage: https://charm.sh/
+Description: A tool for recording terminal GIFs
+
+Package: yaru818-theme
+Architecture: all
+Version: 24.10.4-1
+Maintainer: Nathan Poirier <nathan@poirier.io>
+Recommends: humanity-icon-theme
+Filename: pool/stable/main/yaru818-theme_24.10.4-1_all.deb
+Size: 28926444
+MD5sum: bc39b5fb7839eae2a3bc2cfbdd75184a
+SHA1: b5eaf965411fcb0302e16ec7cbddcef3a3e632de
+SHA256: 511c496bd69d2839ddd9202a6366d5ecc4a32d4177b2ff18d0a4d3c7d86af89b
+SHA512: 6fbcbbd2f9faf3fafeb00ac6b89a10e3b382f7650d71c2cbdd40fd0ce032ab19655b87a504701fea1505880a3b38cccf92e966577cf60e290546ebf2016cc2f5
+Description: Yaru818 theme
+
