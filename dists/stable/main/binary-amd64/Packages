@@ -51,18 +51,18 @@ Description: simple, modern and secure encryption tool
 
 Package: albert
 Architecture: amd64
-Version: 34.0.2-0+737.1
+Version: 34.0.10-0+750.1
 Priority: optional
 Section: utils
 Maintainer: Manuel Schneider <manuelschneid3r@gmail.com>
-Installed-Size: 6639
+Installed-Size: 6672
 Depends: libarchive13t64 (>= 3.0.4), libc6 (>= 2.38), libgcc-s1 (>= 4.3), libpython3.13 (>= 3.13.0~rc3), libqalculate23 (>= 5.5.2), libqcoro6core0t64 (>= 0.5.0), libqcoro6network0t64 (>= 0.5.0), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6keychain1 (>= 0.13.2), libqt6network6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6statemachine6 (>= 6.6.1), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 14), libx11-6, libqt6sql6-sqlite, python3-pip, python3-venv, qt6-qpa-plugins, qt6-wayland
-Filename: pool/stable/main/albert_34.0.2-0+737.1_amd64.deb
-Size: 1684060
-MD5sum: 3f42d2096b26b068a5d2f022a0498ac3
-SHA1: 41a9209579b62fad4e8903be80b36f201d0be392
-SHA256: 151f8311df4d90d8d8ec51c98e9cd6a28a59acd5c10e8dcfee43ebedabe85202
-SHA512: 9b15cdd84ae370efd15c76eb88c353781237e77faf14e56ae5485c04105a30f862a121813ea46e9dd6ab3ac7d04255531e3e497d75c0c2507aa16e1dd7384538
+Filename: pool/stable/main/albert_34.0.10-0+750.1_amd64.deb
+Size: 1699724
+MD5sum: 1572bb9d0eb1486a3792ebc2eaf72019
+SHA1: 35592d00de56323afdf9649d622f637b2ece0ca7
+SHA256: 7807965030e346a55f7fdb5418704842e4b2dfc0754861f717a017731666a588
+SHA512: 9f4d24193450d735b0bf98d0fdd610576f91caed46ff7a2d859f2f822abd48007c5e2da77ebe669465dfef9c9488a3ab8c704e081c0e8bcbc387269719c0e188
 Homepage: https://albertlauncher.github.io/
 Description: Plugin-based C++/Qt keyboard launcher
  Albert is a desktop agnostic keyboard launcher that helps you to accomplish your workflows in a breeze.
@@ -101,35 +101,35 @@ Description: A vault for securely storing and accessing AWS credentials in devel
 
 Package: bitwarden-cli
 Architecture: amd64
-Version: 2025.12.1
+Version: 2026.1.0
 Priority: optional
 Section: utils
 Maintainer: Nathan Poirier <nathan@poirier.io>
-Installed-Size: 133090
+Installed-Size: 133462
 Conflicts: bitwarden
-Filename: pool/stable/main/bitwarden-cli_2025.12.1_amd64.deb
-Size: 28665556
-MD5sum: bd25c830bf255b76e96bc1b5331d961a
-SHA1: c2bf6e52c613adce8de4ad45fc14a42457e8cabc
-SHA256: 681ae6e1d8a4d6f2d5de1d7c756ff8128c7f1f8ea68677113d02f4cd6c6b3723
-SHA512: 03557ec85202836ae24db3ebe7e7dd32031bdc439dba71d5fdac71ec5b261d8cf536ab961512804da2e4bb8c2c982ee61c9fc28323dde9f6ab528d61a6ba6bf9
+Filename: pool/stable/main/bitwarden-cli_2026.1.0_amd64.deb
+Size: 28722724
+MD5sum: 4b32ad176a85944214ae873273714af3
+SHA1: 342b473dd61b3dd91b4eae5fc97a0dd170d96d8b
+SHA256: 787fa33694e913ca3924dd53e03809d013ca92455e5bcccf253cbc31da6f3610
+SHA512: 06824ca6bd25f958ee3bd4fc0bc2c8a9e0917931df5cf763b4f79de04d097bee47d5ce7f981627e199f06d2b4928cd1b12c53df672e530f7a56bc6df93208c65
 Homepage: https://bitwarden.com/help/cli/
 Description: CLI tool to access and manage a Bitwarden vault.
 
 Package: buildpacks-pack
 Architecture: amd64
-Version: 0.39.1
+Version: 0.40.0
 Priority: optional
 Section: devel
 Maintainer: Nathan Poirier <nathan@poirier.io>
-Installed-Size: 30045
+Installed-Size: 30181
 Conflicts: liballegro4-dev
-Filename: pool/stable/main/buildpacks-pack_0.39.1_amd64.deb
-Size: 7842944
-MD5sum: 06132261d47520c5473eb604386083a9
-SHA1: e8ec49618afc3c1573e1be8b6326be8b761ddb69
-SHA256: 4004064f452ceb4ffd5ab27cf12431dfd166971f64774d2a487b04f8442ad025
-SHA512: c787bf7143e709f0b46672fce2864ac71cec5ea2df8cc5e279d7a8009713e7830e5c0aaa5f6483a6ad26fd5eeaa25e1fe277d95211b73ba29d795a6c5d61412f
+Filename: pool/stable/main/buildpacks-pack_0.40.0_amd64.deb
+Size: 7858872
+MD5sum: 315ce5acc224da733a47dcad268e4c99
+SHA1: f79487adaabb972acb139c48dea041d85a13dfb7
+SHA256: 4c4e3d93cc2edbd5ebecbf8c42dad9f8e6e08dd2405a39445026d890c2070780
+SHA512: 4cbc6bc12c6ea41e35e22260d7721ed1665aab6ec957c7be23dec769cd376b029d7db988a657f639e6f8b9db4ba71e9cff36cab3601fe37d1ebd4a3c2b5cd87d
 Homepage: https://github.com/buildpacks/pack
 Description: CLI tool for building apps using Cloud Native Buildpacks
 
@@ -350,17 +350,17 @@ License: Apache 2.0 or MIT
 
 Package: ngrok
 Architecture: amd64
-Version: 3.35.0
+Version: 3.36.1
 Priority: optional
 Section: network
 Source: ngrok
 Maintainer: ngrok <release-bot@ngrok.com>
-Filename: pool/stable/main/ngrok_3.35.0_amd64.deb
-Size: 8173768
-MD5sum: 07fd8bb89df4d0ee7a92d3542f456a92
-SHA1: e5691b94f72f56b59ba75f29bf524e0d161bb925
-SHA256: 8c26e860cdb6a567ef4af67d22d9636ab270714f8affb5acb885a9d0853e2af2
-SHA512: 0f1597befc9122de9d8ebbce94fa66044cb441b5741a4fa430dab7984f45fc3b3b370edc89533b6f264c5bfbcdde02f42fbd42e31835aa530a818ce7359ede23
+Filename: pool/stable/main/ngrok_3.36.1_amd64.deb
+Size: 8185272
+MD5sum: ffa7fbd640735dbbf33b95eedfb34b7d
+SHA1: 7394c3bb0ec7d08f14b5a4d7d26ddfb79f3a5273
+SHA256: 214acc23e4980e5dd5c104c7ce40519070ad81ee785694e98226ae0be6834264
+SHA512: b7896c3037b81f2b8fad89a9ce448992d47e44a5bcef5b1baa5d8f81bb88641240248284caa6fcfc5b139c48a65db226159552aa18ad5ab285d705dfb0483375
 Homepage: https://ngrok.com
 Description: ngrok secure tunnel agent
 
@@ -382,18 +382,18 @@ Description: Real-time microphone noise suppression
 
 Package: onedrive
 Architecture: amd64
-Version: 2.5.9-1+np1+1.3
+Version: 2.5.10-1+np1+1.1
 Priority: optional
 Section: net
 Maintainer: Norbert Preining <norbert@preining.info>
-Installed-Size: 4625
+Installed-Size: 4677
 Depends: libc6 (>= 2.34), libcurl4t64 (>= 7.18.2), libdbus-1-3 (>= 1.10), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libnotify4 (>= 0.7.3), libsqlite3-0 (>= 3.7.14), zlib1g (>= 1:1.1.4), init-system-helpers (>= 1.52), libcurl4
-Filename: pool/stable/main/onedrive_2.5.9-1+np1+1.3_amd64.deb
-Size: 1113292
-MD5sum: 8a80e7eab1ff2b9ea1cf134195ca1938
-SHA1: e5f5ef5ab1f0aab702404228889df81ec6ea4f09
-SHA256: 35e1732cd530296ebb5258aee2e0ec6127b872caedebe6d29f863b5a184b571e
-SHA512: 90d7372dfaa930f366b6475695c483758958c75b00d3eec91b7e1728971d50108a6855205273146ebb86076a92ea531b0a415541e926375823b4fc7ef3aaaa9f
+Filename: pool/stable/main/onedrive_2.5.10-1+np1+1.1_amd64.deb
+Size: 1135368
+MD5sum: 5f414fb2d8a190f3cbf9ac3b7bc9b17b
+SHA1: e7d9839213780e86d4b0078227d8c7f9b0351edb
+SHA256: a0b35dc66c83766837a8869356f2a86e72fa3cc4dc5581d24a6283eed962fbf3
+SHA512: 9152e85e69ea4427bf3c49d07bad9ec3a358e87569078805dfbb9b110b4e89e70d8c7ae921d423fd6c22d95ba03d996928cdd43bb0ffe113e38b0431ec22eefd
 Homepage: https://github.com/abraunegg/onedrive
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
@@ -402,50 +402,50 @@ Description: folder synchronization with OneDrive
 
 Package: oxipng
 Architecture: amd64
-Version: 10.0.0
+Version: 10.1.0
 Priority: optional
 Section: graphics
 Maintainer: Nathan Poirier <nathan@poirier.io>
-Installed-Size: 1304
-Filename: pool/stable/main/oxipng_10.0.0_amd64.deb
-Size: 511852
-MD5sum: 32c9c9b22d125a19ce007de8397fed01
-SHA1: dce39eec17b6dea4309781ae61ab24a7574e0d25
-SHA256: 1632bbcbc1f24c141645023e02a3dd750ad9efd7d1a0fed1af80018bbfd08d21
-SHA512: ce00ba8f23e65780c5855db92325be2d6643e52e2bb04c697a3602ce398edbdd3a5f35060970bb7744a53b1a88a8d7caa220e6c61fdc19910e98df77537bdfde
+Installed-Size: 1314
+Filename: pool/stable/main/oxipng_10.1.0_amd64.deb
+Size: 515392
+MD5sum: 674668963f057fd5a493da058b4926ce
+SHA1: ba8c4bf580a1399ad3ba67c85996f5355889ae20
+SHA256: 44f768ecd6abebc3f867291bc73d9bbe636e4b6691344ab2fd6db683a3d63482
+SHA512: 203481632e81a449fedfa136938414f4dc5fed33b105c6c7c96e697e72f2b855eae105daf13f240e617d2b2663a5e247eae9bc025f8d17b7040db57cf70244a9
 Homepage: https://github.com/shssoichiro/oxipng
 Description: A multithreaded PNG optimizer written in Rust
 
 Package: podlet
 Architecture: amd64
-Version: 0.3.0
+Version: 0.3.1
 Priority: optional
 Section: utils
 Maintainer: Nathan Poirier <nathan@poirier.io>
-Installed-Size: 12198
-Filename: pool/stable/main/podlet_0.3.0_amd64.deb
-Size: 2784728
-MD5sum: 698fb4d8ec2125d2b921bc4224d22d12
-SHA1: 5da50ec6b3e87ddd0365333bca42886a27051afb
-SHA256: c3f54b8cccee4ff91c9445d1f809d654e00bbe60e61eaaa87ab65670989a37b1
-SHA512: 3eeab7e203bb6d32a626b3b69a76d6d5bfe5341c94dbed02c39b127a77e93d9f884419e1d460e5f0f16c011fe5b26f2b9ba27bd25d2ca97d9cab761f1f7c7924
+Installed-Size: 11403
+Filename: pool/stable/main/podlet_0.3.1_amd64.deb
+Size: 2626056
+MD5sum: c0d6a2e5dc6b3816d8e6959e92482dbd
+SHA1: ccbacedae89d403e1404f7223e6beb1574ccecf7
+SHA256: 4dae3d1e9094028738c4e158913f9059e3d342f74defb2a109c59c6bc8982d37
+SHA512: 4e524d0ee5d08ad467acdc7353bd46e9186c0fc0633c0ee626a6a636d332cf4fb7021829780377ec2f42cae99c5838df3f8b7fea61b1e534eae863803bea7975
 Homepage: https://github.com/k9withabone/podlet
 Description: Generate podman quadlet files from a podman command, compose file, or existing object
 
 Package: rclone
 Architecture: amd64
-Version: 1.72.1
+Version: 1.73.1
 Priority: extra
 Section: default
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 80810
+Installed-Size: 83706
 Provides: rclone
-Filename: pool/stable/main/rclone_1.72.1_amd64.deb
-Size: 27648396
-MD5sum: 776db93778c5b5e67a3338f089be4773
-SHA1: bfa3666bf9fa55ee99ee69f8ed9013d8de8ef9ff
-SHA256: a385c04469160e28ea37b3c5f6accd15c7f78f819398077c622c7f31e3eec43b
-SHA512: 34883fa24527b78858bad1dd299efaaa609bb24adc066efd230be2c3c1eff95e9d2e6e313f2e38f6f97652ac534a98efe709468a1a3633138c7c121afc8f3189
+Filename: pool/stable/main/rclone_1.73.1_amd64.deb
+Size: 28877640
+MD5sum: 8f8cee822a90ce5daa4400df470aece9
+SHA1: 16ccd1184562cd3570d4101ebe73e8358c39ec62
+SHA256: 4ae039b8ee737bc925a841f6398659584b8b6bdd29c0bb157c40cc234befd732
+SHA512: 3bc9f8105dcb12352c352787e3b48b31096050999669ba7559db4257bbb340e40f18e78816687608ee9102852fb06cabd0eb2b06841b30c9bb3f84a7b895bb9d
 Homepage: https://rclone.org
 Description: Rclone - "rsync for cloud storage"
  is a command-line program to sync files and directories to and
@@ -488,18 +488,18 @@ License: Apache 2.0
 
 Package: task
 Architecture: amd64
-Version: 3.47.0
+Version: 3.48.0
 Priority: optional
 Section: golang
 Maintainer: The Task authors <task@taskfile.dev>
-Installed-Size: 47818
+Installed-Size: 47839
 Conflicts: taskwarrior
-Filename: pool/stable/main/task_3.47.0_amd64.deb
-Size: 15129136
-MD5sum: dc3271c2347037e33ffcb2baa188f69d
-SHA1: 8e9383575aa7e55626d89c834f22d58a178606d9
-SHA256: 78bd2e1b296328f7c2760cf6958012d9977727abb48b64ececd0201eec873db8
-SHA512: 863882ca0328944a2b85c714d946ccb84c426f77123bf9421c410e29b45314be450883bddf745d5431c4e47daf31740741c930f09858c5316e218ef8e00d6f42
+Filename: pool/stable/main/task_3.48.0_amd64.deb
+Size: 15133288
+MD5sum: e228c0cd18389067049fe478efd7c0ef
+SHA1: 3a9a409305a891a93da93b39cbe0195a1e41bf63
+SHA256: c61513b91cacc2d958cfd7b62b4e67e7e386e43b924fc129ffffcc34c805833a
+SHA512: 83146a439f7556829b644b6e72bcba18cf4d5b04dbd7e6fb8101828c8a7ad915b41ae0878b9ad8ba713c675fd4fe5369a1987b3e2fddb93004e7823d4fce5574
 Homepage: https://taskfile.dev
 Description: Simple task runner written in Go
 License: MIT
@@ -522,20 +522,20 @@ Description: CLI tool for sharing terminal over the web
 
 Package: tuxedo-control-center
 Architecture: amd64
-Version: 2.1.22-15
+Version: 2.1.23-16
 Priority: extra
 Section: default
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
-Installed-Size: 386800
+Installed-Size: 386791
 Depends: tuxedo-drivers (>= 4.0.0) | tuxedo-keyboard (>= 3.1.2), libayatana-appindicator3-1
 Conflicts: tuxedofancontrol
 Replaces: tuxedofancontrol
-Filename: pool/stable/main/tuxedo-control-center_2.1.22-15_amd64.deb
-Size: 80654924
-MD5sum: 7d3f5dec5a6f979a10092fe5441ef456
-SHA1: 7c10c4dfed838a816999e8e4227b173e97781612
-SHA256: bf405726544aeb70327870e69ee940714c6bca7e7068ab8a84845ecd8d23fd16
-SHA512: 017f98aa3aef846c26a6b5cf2ae7c79ec363cb4bd24a84a182f4ff00673b903500b0108adcbc17d701ad134d73f2180156bdcb89e3dacc10906f9eec495acab5
+Filename: pool/stable/main/tuxedo-control-center_2.1.23-16_amd64.deb
+Size: 81511804
+MD5sum: 6ba70892c286adc815df37549893b3fc
+SHA1: e9356d4165982b61680d0e80c5a53e902e1765ce
+SHA256: 2db601cbaa7a75289cacaed8d043e29523a39da1dbdcadaaaf8f918554ab0f52
+SHA512: a4c0d0afe1c5c7ff7747caf6a6cbe173e8adfdab27317c3c595fc3847793a7ad74e2b6bc177ff7d0d35c99b92a537c02539a65113cf238d283b1c3f0d43ecaef
 Homepage: https://tuxedocomputers.com
 Description: 
   TUXEDO Control Center Application
@@ -564,22 +564,22 @@ Description: Add easy ways to launch programms on dGPU on optimus devices
 
 Package: tuxedo-drivers
 Architecture: all
-Version: 4.18.2
+Version: 4.20.1
 Priority: optional
 Section: devel
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
-Installed-Size: 495
+Installed-Size: 499
 Provides: tuxedo-keyboard (= 4.0.0)
 Depends: dkms (>= 2.1.0.0)
 Recommends: udev-hid-bpf
 Breaks: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
 Replaces: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
-Filename: pool/stable/main/tuxedo-drivers_4.18.2_all.deb
-Size: 71860
-MD5sum: 036febcf9b7c622bcc9f1bafac3fa901
-SHA1: 9e6324e23b80cc529950ae743ee36a7045dbfb16
-SHA256: 36d83e1e16b86123c91fa404dcf4c4a22edf7db31aa48447d5db42aef0c6a0b3
-SHA512: a468f24c9b76748475bb733aa1b4b29cb7ad440ecfc23b4297c4e234ba5d98d06f6c9fae911354c9cfa93f1097e1d808dae16e9c51a103d5fa05237d29f3db3e
+Filename: pool/stable/main/tuxedo-drivers_4.20.1_all.deb
+Size: 72448
+MD5sum: 0963c2f18f85d1aed8c09ceec2086eb9
+SHA1: 48c13919b6b608a232521e4d72c0d06f9ed52029
+SHA256: 416e5228494cc2231f1378c2ef5e42963c7c55d2d1c0ab268d58b107d50f7006
+SHA512: 0f021453e8d0db661281ad538250d15454b2124cbc574050bb9741d5b278832e30fb04a06e00bb13db80b4318c03187f03ec9c52e2745d225030abe4caf747c6
 Homepage: https://tuxedocomputers.com
 Description: Kernel modules for TUXEDO devices
  Drivers for several platform devices for TUXEDO notebooks meant for DKMS.

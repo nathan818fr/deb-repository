@@ -83,18 +83,18 @@ Description: A vault for securely storing and accessing AWS credentials in devel
 
 Package: buildpacks-pack
 Architecture: arm64
-Version: 0.39.1
+Version: 0.40.0
 Priority: optional
 Section: devel
 Maintainer: Nathan Poirier <nathan@poirier.io>
-Installed-Size: 27661
+Installed-Size: 27853
 Conflicts: liballegro4-dev
-Filename: pool/stable/main/buildpacks-pack_0.39.1_arm64.deb
-Size: 6646832
-MD5sum: 53d1843496918c3d405fe3d525f7351a
-SHA1: 77f2c0d077afb2b62240b2829e832d79afde81e8
-SHA256: a1cced550d16ea6208b376a28950d6f6b83dea358106ddcf507418cff1c92a5f
-SHA512: ab45c433fbe051d885e19e5e643b7258227d9133a7c97be0bfc0259868c35ee17c557751da31bb8d2ae56eeafc232b79f4342cbecff0449fd3db6f30c82ce4e5
+Filename: pool/stable/main/buildpacks-pack_0.40.0_arm64.deb
+Size: 6667768
+MD5sum: 14f2d2ff942a07be84e5059b763f54d9
+SHA1: c0a89dc872cfbad5945369820154b3b81a763e63
+SHA256: c1cab8cce40e954a0915e428e18085832df3a0ddb19c85d0b1dac44d0e0d30b7
+SHA512: 269ef9c989b3bdcac25164fa9213a2189df114e869f7dfb5e1704973e1f8d73a18f982eaefbaaeb1fc6addf95c7e63ea4e1a3a09b6765db468471b81f6a02fda
 Homepage: https://github.com/buildpacks/pack
 Description: CLI tool for building apps using Cloud Native Buildpacks
 
@@ -296,34 +296,34 @@ License: Apache 2.0 or MIT
 
 Package: ngrok
 Architecture: arm64
-Version: 3.35.0
+Version: 3.36.1
 Priority: optional
 Section: network
 Source: ngrok
 Maintainer: ngrok <release-bot@ngrok.com>
-Filename: pool/stable/main/ngrok_3.35.0_arm64.deb
-Size: 7004612
-MD5sum: ba3688ed9119d6d352d229986e19710b
-SHA1: 250ac8b6f8e1a4f9e1ae7a9433b692a7f742f35f
-SHA256: bc1c2a8a9ac08cd008442f53f5ea29bf8ac67ec6c4221e3238d5f23af8c416cc
-SHA512: 558c85ce6675714198f4d985d398ec7425700351007ea5c1701c3fbc1efeec8e1f74720ec8422d27330f5487a3b192f936213c55564c3669fbfedf00c0be6f5c
+Filename: pool/stable/main/ngrok_3.36.1_arm64.deb
+Size: 7018776
+MD5sum: 18d4801efc6a8707186802e49b8e1b34
+SHA1: 961f30189fc4362d7e65aba7313bb3e6829d3a6e
+SHA256: 0cde66043e858705ecaffeddfe8d9decd29cc987d678398a33cc2da2cd3dfdba
+SHA512: df660b28dba24f3fbe3d6cddc3ffc34472d580ae37861bbd6296a6390a05b3a9ac501d4746eb2a353a82306e95bc65ce9de568bd6715c4586163a9e22e1db254
 Homepage: https://ngrok.com
 Description: ngrok secure tunnel agent
 
 Package: onedrive
 Architecture: arm64
-Version: 2.5.9-1+np1+1.3
+Version: 2.5.10-1+np1+1.1
 Priority: optional
 Section: net
 Maintainer: Norbert Preining <norbert@preining.info>
-Installed-Size: 4389
+Installed-Size: 4401
 Depends: libc6 (>= 2.34), libcurl4t64 (>= 7.18.2), libdbus-1-3 (>= 1.10), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libnotify4 (>= 0.7.3), libsqlite3-0 (>= 3.7.14), zlib1g (>= 1:1.1.4), init-system-helpers (>= 1.52), libcurl4
-Filename: pool/stable/main/onedrive_2.5.9-1+np1+1.3_arm64.deb
-Size: 1008068
-MD5sum: 826de10f1fb997bb300e1be3400d34aa
-SHA1: 20e071506dc27325a53ae504169db5862dbabe53
-SHA256: 3b512be2504f9881b51e4107abea984d547a47354e0de6a7dd2fdf0b9324bfc8
-SHA512: 89ae5dd04599448c4358680ed5f244d41ca523d70e2131fefcbef20a97d85256161b9ae32eaf455895144104b5a048140df6b6e9888def61f556f50a5588ddfc
+Filename: pool/stable/main/onedrive_2.5.10-1+np1+1.1_arm64.deb
+Size: 1026928
+MD5sum: d24a2afb057821fc738de702d2389bdc
+SHA1: 8481cae425d45cd9d77b1ac9cd2290041e35e1be
+SHA256: e9bee0a2a3e7fe5a6ec9a0908061b1d66b022e816ec572efa0fe537a959db44b
+SHA512: 23f38b9e38a1d0a05d8f2414da98e9ae420fda60323392e70703270dafac3afb9b5598ffc6a4e98665b68ca2be03b4bb83c7100f6f9f7fceb0e02acd1e60be53
 Homepage: https://github.com/abraunegg/onedrive
 Description: folder synchronization with OneDrive
  OneDrive is the cloud storage system of Microsoft. This package provides
@@ -332,34 +332,34 @@ Description: folder synchronization with OneDrive
 
 Package: oxipng
 Architecture: arm64
-Version: 10.0.0
+Version: 10.1.0
 Priority: optional
 Section: graphics
 Maintainer: Nathan Poirier <nathan@poirier.io>
 Installed-Size: 1157
-Filename: pool/stable/main/oxipng_10.0.0_arm64.deb
-Size: 440412
-MD5sum: d69eee3d38c27d35d054e4d165479bcd
-SHA1: fcb04c36d190edeed56bfcd87223891dccb1a50d
-SHA256: d492b25044c589a596c449adc530e8f6a3951fe021a1d070734a47092386f808
-SHA512: ad5ddecbfc55ac766ad00eac93a8c106695e9f270b982448329c4c1c52bc199e266962e5e3c5e0fb44677678e5b15266ece30759dbea36680324bcf008940036
+Filename: pool/stable/main/oxipng_10.1.0_arm64.deb
+Size: 444464
+MD5sum: fae4de0c452ea9252e9f870857ad5d8d
+SHA1: a0eba5a8c61cb1ea2929d439302409cbd61050bd
+SHA256: d49b9be62dfedd5ee25c1251fa8272ec8984bee00d798450e542687ab2ac90e8
+SHA512: 70173e9ef9d01d22e29470b91a4a46ba545e1820740c78f41ff39ed331c677babab96d401f1b7ac08e9bb132743724c5aba37098d6e814bc89f0783afd4f3590
 Homepage: https://github.com/shssoichiro/oxipng
 Description: A multithreaded PNG optimizer written in Rust
 
 Package: rclone
 Architecture: arm64
-Version: 1.72.1
+Version: 1.73.1
 Priority: extra
 Section: default
 Maintainer: Nick Craig-Wood <nick@craig-wood.com>
-Installed-Size: 75274
+Installed-Size: 77922
 Provides: rclone
-Filename: pool/stable/main/rclone_1.72.1_arm64.deb
-Size: 25319494
-MD5sum: 7c72f76fe3d3022164bfff134cbc2433
-SHA1: e0854738e969c34fbf037e29b4b86c0ed91d76ba
-SHA256: 92b6a4ae01b942f46bbaaee031a38807a8dc67164bcf1d3dda50deeec941653a
-SHA512: c578f4c968a8867456d264b3de29c897463b738479f0410a75a83ec92375a75a177363aac1c54796f8571b2d84cd72fcee9bb71a060acfa020243fa9adbb9227
+Filename: pool/stable/main/rclone_1.73.1_arm64.deb
+Size: 26477040
+MD5sum: fb182812a3ff993392f1ae2de5cc11b2
+SHA1: 34d398837d51f77ea3458ed7d14078629aeb88a7
+SHA256: f6c80bdc82194ac7a66f77c1865053cfa8348c3e554623fa7dd8d1f09b858fcf
+SHA512: 1c5d99ebe728887d6c6e8c9c2fcdb0032ddd126d4236446367ff48268207854a19dd612bd532fa13323ab59ad689cbe5de64c6e26abdeea1305fbad2d89c50c8
 Homepage: https://rclone.org
 Description: Rclone - "rsync for cloud storage"
  is a command-line program to sync files and directories to and
@@ -402,18 +402,18 @@ License: Apache 2.0
 
 Package: task
 Architecture: arm64
-Version: 3.47.0
+Version: 3.48.0
 Priority: optional
 Section: golang
 Maintainer: The Task authors <task@taskfile.dev>
-Installed-Size: 44686
+Installed-Size: 44687
 Conflicts: taskwarrior
-Filename: pool/stable/main/task_3.47.0_arm64.deb
-Size: 13711592
-MD5sum: a0ce1c24e3ccccef2c6170fbd8d8c38e
-SHA1: 0f94ad96a1053442e3c8a015d6426546a2373bdf
-SHA256: 52a42d3ea891f20d439f2b31383603de9107998b34870ee22278b06e1af2d874
-SHA512: 43a5adbe86532c8a560343f56f5caba09dc588f6b192065d73592a0412b60b4182db58c6b744e6b90c90ee141bfe561e3624afa0cc832793cf83d0ac571f8bae
+Filename: pool/stable/main/task_3.48.0_arm64.deb
+Size: 13720422
+MD5sum: d786dd39bf4081b66569e87ee1cc283d
+SHA1: 280d223a147836535da555f3c85b444dc1ce6105
+SHA256: 4aea2e015c0b07e998fed1d12dcb6b050b1c2a1a89e17e2c87a8026e40a2d35c
+SHA512: e1e4f599c3ad210a62ce7765e20434baa67e81a5c18db13e7e58f81199b0c6706bac78a13ee43e469d0f0e77dc39e046c8bcae7cc00b99c8d981ddec50f05654
 Homepage: https://taskfile.dev
 Description: Simple task runner written in Go
 License: MIT
@@ -456,22 +456,22 @@ Description: Add easy ways to launch programms on dGPU on optimus devices
 
 Package: tuxedo-drivers
 Architecture: all
-Version: 4.18.2
+Version: 4.20.1
 Priority: optional
 Section: devel
 Maintainer: TUXEDO Computers GmbH <tux@tuxedocomputers.com>
-Installed-Size: 495
+Installed-Size: 499
 Provides: tuxedo-keyboard (= 4.0.0)
 Depends: dkms (>= 2.1.0.0)
 Recommends: udev-hid-bpf
 Breaks: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
 Replaces: tuxedo-cc-wmi (<< 4.0.0~), tuxedo-keyboard (<< 4.0.0~), tuxedo-keyboard-dkms (<< 4.0.0~), tuxedo-keyboard-ite (<< 4.0.0~), tuxedo-touchpad-fix (<< 4.0.0~), tuxedo-wmi-dkms (<< 4.0.0~), tuxedo-xp-xc-airplane-mode-fix (<< 4.0.0~), tuxedo-xp-xc-touchpad-key-fix (<< 4.0.0~)
-Filename: pool/stable/main/tuxedo-drivers_4.18.2_all.deb
-Size: 71860
-MD5sum: 036febcf9b7c622bcc9f1bafac3fa901
-SHA1: 9e6324e23b80cc529950ae743ee36a7045dbfb16
-SHA256: 36d83e1e16b86123c91fa404dcf4c4a22edf7db31aa48447d5db42aef0c6a0b3
-SHA512: a468f24c9b76748475bb733aa1b4b29cb7ad440ecfc23b4297c4e234ba5d98d06f6c9fae911354c9cfa93f1097e1d808dae16e9c51a103d5fa05237d29f3db3e
+Filename: pool/stable/main/tuxedo-drivers_4.20.1_all.deb
+Size: 72448
+MD5sum: 0963c2f18f85d1aed8c09ceec2086eb9
+SHA1: 48c13919b6b608a232521e4d72c0d06f9ed52029
+SHA256: 416e5228494cc2231f1378c2ef5e42963c7c55d2d1c0ab268d58b107d50f7006
+SHA512: 0f021453e8d0db661281ad538250d15454b2124cbc574050bb9741d5b278832e30fb04a06e00bb13db80b4318c03187f03ec9c52e2745d225030abe4caf747c6
 Homepage: https://tuxedocomputers.com
 Description: Kernel modules for TUXEDO devices
  Drivers for several platform devices for TUXEDO notebooks meant for DKMS.
